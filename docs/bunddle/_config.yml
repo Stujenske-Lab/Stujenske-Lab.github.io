@@ -28,7 +28,7 @@ twitter_username: jmstujenske
 github_username:  jmstujenske
 
 # Build settings
-theme: jekyll-theme-slate
+theme: minima
 plugins:
   - jekyll-feed
 
