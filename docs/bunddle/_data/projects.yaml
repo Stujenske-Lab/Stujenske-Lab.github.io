@@ -1,47 +1,32 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: Tiff Read & Write
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  subtitle: Suite of tools for fast reading and writing of uncompressed tiffs in Matlab.
+  image: images/Hard-Disk.jpg
+  link: https://github.com/jmstujenske/Matlab_FastTiffReadWrite
+  description: Suite of tools for fast reading and writing of uncompressed tiffs in Matlab. Critically, it includes TiffViewer, which can load almost any HUGE tiff stack in a matter of SECONDS.
+  repo: jmstujenske/Matlab_FastTiffReadWrite
   tags:
     - resource
-
-- title: Cool Package
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
-
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
     - software
 
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Modeling for Optogenetics
+  group: featured
+  subtitle: Predict light and heat spread from optic fibers
+  image: images/Heat_Rect.png
+  link: https://github.com/jmstujenske/Spatiotemporal-Dynamics-Fiber-Optic
+  description: This is a github package containing the code for Monte Carlo and heat diffusion simulations as published in Stujenske et al., 2014, Cell Reports
+  repo: jmstujenske/Spatiotemporal-Dynamics-Fiber-Optic
   tags:
+    - resource
+    - software
+    - publication
+
+- title: Suite2p
+  subtitle: Calcium imaging package
+  image: images/suite2p.png
+  link: https://github.com/MouseLand/suite2p
+  description: Cell detection based on correlated activity.
+  repo: MouseLand/suite2p
+  tags:
+    - resource
     - software

@@ -1,14 +1,13 @@
 ---
-title: Projects
+title: Tools
 nav:
   order: 2
   tooltip: Software, datasets, and more
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# {% include icon.html icon="fa-solid fa-wrench" %}Tools
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our group actively develops and disseminates software with applications to neuroscience research. We primarily develop tools using Matlab. Here we provide links to open source tools that we use, developed in the lab and elsewhere.
 
 {% include tags.html tags="publication, resource, website" %}
 
@@ -16,12 +15,12 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {% include section.html %}
 
-## Featured
+## Stujenske Lab Resources
 
 {% include list.html component="card" data="projects" filters="group: featured" %}
 
 {% include section.html %}
 
-## More
+## Other Resources
 
 {% include list.html component="card" data="projects" filters="group: " style="small" %}

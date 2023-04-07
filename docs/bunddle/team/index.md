@@ -7,9 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+The Stujenske lab is relatively new, and current lab members may not yet be added to the website. Dr. Stujenske is glad to have the opportunity to work with and mentor individuals at any step in their scientific journey, from high school through postdoc.
 
 {% include section.html %}
 
@@ -18,18 +16,23 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+The laboratory has funding for multiple positions, including lab technicians, graduate students, and postdocs. Please contact Dr. Stujenske using the link below to express your interest.
+
+{%
+  include button.html
+  type="email"
+  text="I am interested in a position!"
+  link="jmstujenske@gmail.com"
+%}
 
 {% include section.html %}
 
+# {% include icon.html icon="fa-solid fa-users" %}Funding
+
 {% capture content %}
 
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
+{% include figure.html image="images/NIH-NIMH-logo-new.png" %}
 
 {% endcapture %}
 
-{% include grid.html style="square" content=content %}
+{% include grid.html content=content %}

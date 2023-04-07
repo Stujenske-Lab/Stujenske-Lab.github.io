@@ -9,14 +9,9 @@ The lab studies the structure and function of neural circuits, with a strong int
 
 {%
   include button.html
-  type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
-%}
-{%
-  include button.html
   type="github"
   text="On GitHub"
-  link="greenelab/lab-website-template"
+  link="jmstujenske"
 %}
 
 {% include section.html %}
@@ -25,7 +20,7 @@ The lab studies the structure and function of neural circuits, with a strong int
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We use a variety of tools to interrogate brain circuits that regulate internal brain states.
 
 {%
   include button.html
@@ -40,7 +35,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/background.jpg"
   link="research"
   title="Our Research"
   text=text
@@ -48,7 +43,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We are dedicated to open science and sharing tools with neuroscience community.
 
 {%
   include button.html
@@ -63,7 +58,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/Heat_Rect.png"
   link="projects"
   title="Our Projects"
   flip=true
@@ -73,7 +68,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+The Stujenske Lab is dedicated to fostering an environment where individuals feel valued for their unique experiences and talents. Teamwork and collaboration are at the heart of the our science.
 
 {%
   include button.html
@@ -88,8 +83,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/NCI_unsplash.jpg"
   link="team"
-  title="Our Team"
+  title="We are hiring!"
   text=text
 %}
