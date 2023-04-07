@@ -1,7 +1,7 @@
 ---
 ---
 
-$logo-big: 80px;
+$logo-big: 200px;
 $logo: 40px;
 $big-padding: 100px;
 $collapse: 700px;
@@ -66,7 +66,7 @@ header a {
 // subtitle
 .title > *:last-child {
   color: var(--gray);
-  font-weight: var(--thin);
+  font-weight: var(--medium);
 }
 
 .nav-toggle {
