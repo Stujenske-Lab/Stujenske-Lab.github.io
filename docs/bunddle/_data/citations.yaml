@@ -1,113 +1,149 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
+- id: pubmed:35397211
+  title: Prelimbic cortex drives discrimination of non-aversion via amygdala somatostatin
+    interneurons.
   authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
-  authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
+  - Joseph M Stujenske
+  - Pia-Kelsey O'Neill
+  - Carolina Fernandes-Henriques
+  - Itzick Nahmoud
+  - Samantha R Goldburg
+  - Ashna Singh
+  - Laritza Diaz
+  - Margarita Labkovich
+  - William Hardin
+  - Scott S Bolkan
+  - Thomas R Reardon
+  - Timothy J Spellman
+  - C Daniel Salzman
+  - Joshua A Gordon
+  - Conor Liston
+  - Ekaterina Likhtik
+  publisher: Neuron
+  date: '2022-04-08'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/35397211
+  term: Stujenske, J[Author] NOT Correction[Title]
   plugin: sources.py
   file: sources.yaml
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
-  tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
+  image: url('/images/Neuron2022_abstract.png');
+- id: pubmed:28761080
+  title: Serotonin inputs to the dorsal BNST modulate anxiety in a 5-HT
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
-  authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+  - A L Garcia-Garcia
+  - S Canetta
+  - J M Stujenske
+  - N S Burghardt
+  - M S Ansorge
+  - A Dranovsky
+  - E D Leonardo
+  publisher: Molecular psychiatry
+  date: '2017-08-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/28761080
+  term: Stujenske, J[Author] NOT Correction[Title]
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
+- id: pubmed:28542155
+  title: Fear from the bottom up.
   authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+  - Joseph M Stujenske
+  - Ekaterina Likhtik
+  publisher: Nature neuroscience
+  date: '2017-05-25'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/28542155
+  term: Stujenske, J[Author] NOT Correction[Title]
+  plugin: sources.py
+  file: sources.yaml
+- id: pubmed:28481349
+  title: Thalamic projections sustain prefrontal activity during working memory maintenance.
+  authors:
+  - Scott S Bolkan
+  - Joseph M Stujenske
+  - Sebastien Parnaudeau
+  - Timothy J Spellman
+  - Caroline Rauffenbart
+  - Atheir I Abbas
+  - Alexander Z Harris
+  - Joshua A Gordon
+  - Christoph Kellendonk
+  publisher: Nature neuroscience
+  date: '2017-05-03'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/28481349
+  term: Stujenske, J[Author] NOT Correction[Title]
+  plugin: sources.py
+  file: sources.yaml
+- id: pubmed:26166563
+  title: Modeling the Spatiotemporal Dynamics of Light and Heat Propagation for In
+    Vivo Optogenetics.
+  authors:
+  - Joseph M Stujenske
+  - Timothy Spellman
+  - Joshua A Gordon
+  publisher: Cell reports
+  date: '2015-07-09'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/26166563
+  term: Stujenske, J[Author] NOT Correction[Title]
+  plugin: sources.py
+  file: sources.yaml
+- id: pubmed:26140594
+  title: Neural Representations of Unconditioned Stimuli in Basolateral Amygdala Mediate
+    Innate and Learned Responses.
+  authors:
+  - Felicity Gore
+  - Edmund C Schwartz
+  - Baylor C Brangers
+  - Stanley Aladi
+  - Joseph M Stujenske
+  - Ekaterina Likhtik
+  - Marco J Russo
+  - Joshua A Gordon
+  - C Daniel Salzman
+  - Richard Axel
+  publisher: Cell
+  date: '2015-07-02'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/26140594
+  term: Stujenske, J[Author] NOT Correction[Title]
+  plugin: sources.py
+  file: sources.yaml
+- id: pubmed:25144877
+  title: Fear and safety engage competing patterns of theta-gamma coupling in the
+    basolateral amygdala.
+  authors:
+  - Joseph M Stujenske
+  - Ekaterina Likhtik
+  - Mihir A Topiwala
+  - Joshua A Gordon
+  publisher: Neuron
+  date: '2014-08-20'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/25144877
+  term: Stujenske, J[Author] NOT Correction[Title]
+  plugin: sources.py
+  file: sources.yaml
+- id: pubmed:24241397
+  title: Prefrontal entrainment of amygdala activity signals safety in learned fear
+    and innate anxiety.
+  authors:
+  - Ekaterina Likhtik
+  - Joseph M Stujenske
+  - Mihir A Topiwala
+  - Alexander Z Harris
+  - Joshua A Gordon
+  publisher: Nature neuroscience
+  date: '2013-11-17'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/24241397
+  term: Stujenske, J[Author] NOT Correction[Title]
+  plugin: sources.py
+  file: sources.yaml
+- id: pubmed:21460263
+  title: The bugeye mutant zebrafish exhibits visual deficits that arise with the
+    onset of an enlarged eye phenotype.
+  authors:
+  - Joseph M Stujenske
+  - John E Dowling
+  - Farida Emran
+  publisher: Investigative ophthalmology & visual science
+  date: '2011-06-13'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/21460263
+  term: Stujenske, J[Author] NOT Correction[Title]
   plugin: sources.py
   file: sources.yaml
