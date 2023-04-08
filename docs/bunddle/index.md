@@ -43,7 +43,7 @@ We use a variety of tools to interrogate brain circuits that regulate internal b
 
 {% capture text %}
 
-We are dedicated to open science and sharing tools with neuroscience community.
+We are dedicated to open science and sharing tools with neuroscience community. Our tools page has links to software that we have developed and other open source tools that we utilize.
 
 {%
   include button.html
@@ -58,9 +58,9 @@ We are dedicated to open science and sharing tools with neuroscience community.
 
 {%
   include feature.html
-  image="images/Heat_Rect.png"
+  image="images/Tools.png"
   link="projects"
-  title="Our Projects"
+  title="Our Tools"
   flip=true
   style="bare"
   text=text

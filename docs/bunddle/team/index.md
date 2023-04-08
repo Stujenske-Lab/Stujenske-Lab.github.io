@@ -16,6 +16,7 @@ The Stujenske lab is relatively new, and current lab members may not yet be adde
 
 {% include section.html background="images/background.jpg" dark=true %}
 
+# We are hiring!
 The laboratory has funding for multiple positions, including lab technicians, graduate students, and postdocs. Please contact Dr. Stujenske using the link below to express your interest.
 
 {%

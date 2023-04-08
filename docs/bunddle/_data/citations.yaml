@@ -27,6 +27,9 @@
   plugin: sources.py
   file: sources.yaml
   image: https://raw.githubusercontent.com/Stujenske-Lab/Stujenske-Lab.github.io/main/docs/bunddle/images/Neuron2022_abstract.png
+  buttons:
+  - type: source
+    link: https://github.com/jmstujenske/PL_drives_nonaversion_via_SOM_IN
 - id: pubmed:28761080
   title: Serotonin inputs to the dorsal BNST modulate anxiety in a 5-HT
   authors:
@@ -89,6 +92,9 @@
   plugin: sources.py
   file: sources.yaml
   image: https://raw.githubusercontent.com/Stujenske-Lab/Stujenske-Lab.github.io/main/docs/bunddle/images/Heat.png
+  buttons:
+  - type: source
+    link: https://github.com/jmstujenske/Spatiotemporal-Dynamics-Fiber-Optic
 - id: pubmed:26140594
   title: Neural Representations of Unconditioned Stimuli in Basolateral Amygdala Mediate
     Innate and Learned Responses.

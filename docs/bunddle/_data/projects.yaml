@@ -1,14 +1,3 @@
-- title: Tiff Read & Write
-  group: featured
-  subtitle: Suite of tools for fast reading and writing of uncompressed tiffs in Matlab.
-  image: images/Hard-Disk.jpg
-  link: https://github.com/jmstujenske/Matlab_FastTiffReadWrite
-  description: Suite of tools for fast reading and writing of uncompressed tiffs in Matlab. Critically, it includes TiffViewer, which can load almost any HUGE tiff stack in a matter of SECONDS.
-  repo: jmstujenske/Matlab_FastTiffReadWrite
-  tags:
-    - resource
-    - software
-
 - title: Modeling for Optogenetics
   group: featured
   subtitle: Predict light and heat spread from optic fibers
@@ -21,6 +10,30 @@
     - software
     - publication
 
+- title: Tiff Read & Write
+  group: featured
+  subtitle: Suite of tools for fast reading and writing of uncompressed tiffs in Matlab.
+  image: images/Hard-Disk.jpg
+  link: https://github.com/jmstujenske/Matlab_FastTiffReadWrite
+  description: Includes TiffViewer, which can load almost any HUGE tiff stack in a matter of SECONDS. 
+  repo: jmstujenske/Matlab_FastTiffReadWrite
+  tags:
+    - resource
+    - software
+  
+- title: ReadOIR
+  group: featured
+  subtitle: Read Olympus .oir files in Matlab and/or convert to tiff.
+  image: images/Hard-Disk.jpg
+  link: https://github.com/jmstujenske/ReadOIR
+  description: This is a fork of another repo. Used with Tiff Read & Write repo, can convert .oir files to tiffs quickly.
+  repo: jmstujenske/ReadOIR
+  tags:
+    - resource
+    - software
+
+
+
 - title: Suite2p
   subtitle: Calcium imaging package
   image: images/suite2p.png
@@ -30,3 +43,34 @@
   tags:
     - resource
     - software
+
+- title: Blender
+  subtitle: 3D design software
+  image: images/blender.png
+  link: https://www.blender.org/
+  description: This is a very versatile software that we use for designing 3D prints. 
+  repo: blender/blender
+  tags:
+    - resource
+    - software
+
+- title: Kilosort
+  subtitle: Spike sorting software
+  image: images/kilosort.png
+  link: https://github.com/MouseLand/Kilosort
+  description: We use this for spike sorting from electrophysiological recordings.
+  repo: MouseLand/Kilosort
+  tags:
+    - resource
+    - software
+
+- title: Phy
+  subtitle: Visualizing electrophysiological data
+  image: images/phy.png
+  link: https://github.com/cortex-lab/phy
+  description: We use this for cell selection after kilosort.
+  repo: cortex-lab/phy
+  tags:
+    - resource
+    - software
+

@@ -12,7 +12,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 20px;
   padding: 20px;
   box-shadow: var(--shadow);
@@ -137,16 +137,16 @@ header:not([data-big]) {
 
 header[data-big] {
   justify-content: center;
-  align-items: center;
+  align-items: left;
   flex-direction: column;
-  padding: $big-padding 20px;
+  padding: $big-padding 0px;
 
   @if $sticky {
     top: unset;
   }
 
   .home {
-    flex-direction: column;
+    flex-direction: row;
     flex-grow: 0;
   }
 
@@ -156,20 +156,22 @@ header[data-big] {
 
   .title {
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     text-align: center;
   }
 
   .title > *:first-child {
-    font-size: var(--xxl);
+    font-size: 40px;
   }
 
   .title > *:last-child {
-    font-size: var(--large);
+    font-size: 24px;
   }
+  
 }
 
 @media (max-width: $limit-title) {
+  
   .title > *:first-child {
     font-size: var(--medium);
   }
@@ -177,4 +179,5 @@ header[data-big] {
   .title > *:not(:first-child) {
     display: none;
   }
+  
 }
