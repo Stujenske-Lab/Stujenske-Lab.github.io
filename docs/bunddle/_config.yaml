@@ -9,7 +9,7 @@ logo-text: true
 
 # site social media and other links
 links:
-  email: jmstujenske@gmail.com
+  email: stujenske.lab@gmail.com
   orcid: 0000-0002-5188-717X
   google-scholar: Rj1TCzUAAAAJ
   github: Stujenske-lab
@@ -42,7 +42,7 @@ defaults:
       layout: default
   # markdown files in /research
   - scope:
-      path: "research"
+      path: "publications"
     values:
       layout: default
   # markdown files in /contact
@@ -55,7 +55,12 @@ defaults:
       path: "blog"
     values:
       layout: default
-  # markdown files in /blog
+  # markdown files in /tools
+  - scope:
+      path: "tools"
+    values:
+      layout: default
+  # markdown files in /projects
   - scope:
       path: "projects"
     values:

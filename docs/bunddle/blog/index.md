@@ -1,11 +1,11 @@
 ---
-title: Musings
+title: Events
 nav:
-  order: 4
-  tooltip: Musings and miscellany
+  order: 5
+  tooltip: Lab events and accouncements
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %}Musings
+# {% include icon.html icon="fa-solid fa-feather-pointed" %}Events, News, and Announcements
 
 Work in Progress.
 

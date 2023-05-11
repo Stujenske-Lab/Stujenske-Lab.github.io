@@ -1,19 +1,19 @@
 ---
 title: Contact
 nav:
-  order: 5
+  order: 6
   tooltip: Email, address, and location
 ---
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Our lab is in the Department of Psychiatry at XXXXXXXXXX. We are located at XXXXXXXXXX. We are best reached by email.
+Our lab is in the Department of Psychiatry at the University of Pittsburgh. We are located in the Bridgeside II building in South Oakland. We are best reached by email.
 
 {%
   include button.html
   type="email"
-  text="email"
-  link="jms7008@med.cornell.edu"
+  text="Lab email"
+  link="stujenske.lab@gmail.com"
 %}
 {%
   include button.html
@@ -24,6 +24,6 @@ Our lab is in the Department of Psychiatry at XXXXXXXXXX. We are located at XXXX
 {%
   include button.html
   type="address"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  tooltip="Location on Google Maps"
+  link="https://www.google.com/maps/place/450+Technology+Dr,+Pittsburgh,+PA+15219/@40.4373572,-79.9976845,13.5z/data=!4m6!3m5!1s0x8834f182c7d3d8fb:0xd045de3a64d64fb1!8m2!3d40.431671!4d-79.9623509!16s%2Fg%2F11bw41jv6v"
 %}

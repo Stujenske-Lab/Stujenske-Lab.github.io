@@ -24,8 +24,17 @@ We use a variety of tools to interrogate brain circuits that regulate internal b
 
 {%
   include button.html
-  link="research"
+  link="publications"
   text="See our publications"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{%
+  include button.html
+  link="projects"
+  text="See our projects"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -36,19 +45,19 @@ We use a variety of tools to interrogate brain circuits that regulate internal b
 {%
   include feature.html
   image="images/background.jpg"
-  link="research"
+  link="projects"
   title="Our Research"
   text=text
 %}
 
 {% capture text %}
 
-We are dedicated to open science and sharing tools with neuroscience community. Our tools page has links to software that we have developed and other open source tools that we utilize.
+We are dedicated to open science and sharing tools with the neuroscience community. Our tools page has links to software that we have developed and other open source tools that we utilize.
 
 {%
   include button.html
   link="tools"
-  text="Browse our projects"
+  text="Browse our tools"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -59,7 +68,7 @@ We are dedicated to open science and sharing tools with neuroscience community. 
 {%
   include feature.html
   image="images/Tools.png"
-  link="projects"
+  link="tools"
   title="Our Tools"
   flip=true
   style="bare"

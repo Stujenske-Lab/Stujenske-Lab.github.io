@@ -1,7 +1,7 @@
 ---
 title: Team
 nav:
-  order: 3
+  order: 4
   tooltip: About our team
 ---
 
@@ -17,13 +17,13 @@ The Stujenske lab is relatively new, and current lab members may not yet be adde
 {% include section.html background="images/background.jpg" dark=true %}
 
 # We are hiring!
-The laboratory has funding for multiple positions, including lab technicians, graduate students, and postdocs. Please contact Dr. Stujenske using the link below to express your interest.
+The laboratory has funding for multiple positions, including lab technicians, graduate students, and postdocs. Postdoc candidate should have experience with computer programming, imaging, or electrophysiology. Prospective graduate students should have an interest in learning programming if they do not start with this skill. Please contact Dr. Stujenske using the link below to express your interest.
 
 {%
   include button.html
   type="email"
   text="I am interested in a position!"
-  link="jmstujenske@gmail.com"
+  link="stujenske.lab@gmail.com"
 %}
 
 {% include section.html %}
