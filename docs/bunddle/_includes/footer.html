@@ -9,12 +9,25 @@
   {% endif %}
   data-size="wide"
 >
-  <!--
+  <div>
+    Stujenske Lab
+    <br/>
+    450 Technology Dr
+    <br/>
+    Pittsburgh, PA 15219
+  </div>
+  <div>
+    {% include figure.html
+      image="images/bridgeside2.jpg"
+      height=50px
+    %}
+  </div>
+  <span style="font-family:sans-serif; font-size:1.4em; font-weight:500; text-align:left">
     <div>
-      Extra details like contact info or address
+      <b>University of Pittsburgh</b>
+      <br/>Department of Psychiatry 
     </div>
-  -->
-
+  </span>
   <div>
     {% for link in site.links %}
       {% assign key = link[0] %}
@@ -26,7 +39,7 @@
   <div>
     &copy; {{ site.time | date: "%Y" }}
     {{ site.title }}
-    &nbsp; | &nbsp; Built with
+    <br/> Built with
     <a href="https://github.com/greenelab/lab-website-template">
       Lab Website Template
     </a>

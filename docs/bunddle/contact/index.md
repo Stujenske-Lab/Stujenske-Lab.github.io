@@ -1,7 +1,7 @@
 ---
 title: Contact
 nav:
-  order: 5
+  order: 6
   tooltip: Email, address, and location
 ---
 
@@ -15,12 +15,14 @@ Our lab is in the [Department of Psychiatry](https://www.psychiatry.pitt.edu/) a
   text="Lab email"
   link="stujenske.lab@gmail.com"
 %}
+{% comment %}
 {%
   include button.html
   type="phone"
   text="(XXX) XXX-XXXX"
   link="+1-XXX-XXX-XXXX"
 %}
+{% endcomment %}
 {%
   include button.html
   type="address"
@@ -30,6 +32,6 @@ Our lab is in the [Department of Psychiatry](https://www.psychiatry.pitt.edu/) a
 {%
   include figure.html
   image="images/map.png"
-  width="100%"
+  width="50%"
   link="https://www.google.com/maps/place/450+Technology+Dr,+Pittsburgh,+PA+15219/@40.4373572,-79.9976845,13.5z/data=!4m6!3m5!1s0x8834f182c7d3d8fb:0xd045de3a64d64fb1!8m2!3d40.431671!4d-79.9623509!16s%2Fg%2F11bw41jv6v"
 %}

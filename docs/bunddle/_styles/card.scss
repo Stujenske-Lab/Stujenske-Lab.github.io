@@ -3,16 +3,14 @@
 
 .card {
   display: inline-flex;
-  justify-content: stretch;
   align-items: center;
   flex-direction: column;
   width: 350px;
   max-width: calc(100% - 20px - 20px);
-  margin: 20px;
-  background: var(--background);
+  margin: 5px;
   border-radius: var(--rounded);
   overflow: hidden;
-  box-shadow: var(--shadow);
+  //box-shadow: var(--shadow);
   vertical-align: top;
 }
 
@@ -29,10 +27,10 @@
 .card-text {
   display: inline-flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: left;
   flex-direction: column;
   gap: 20px;
-  padding: 20px;
+  padding: 5px;
 }
 
 .card-text > *,
@@ -48,4 +46,5 @@
 .card-subtitle {
   margin-top: -15px;
   font-style: italic;
+  text-align: left;
 }

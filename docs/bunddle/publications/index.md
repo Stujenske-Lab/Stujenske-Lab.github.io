@@ -1,8 +1,8 @@
 ---
 title: Publications
 nav:
-  order: 1
-  tooltip: Published works
+  order: 4
+  tooltip: Published work
 ---
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Publications

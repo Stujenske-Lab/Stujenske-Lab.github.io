@@ -1,13 +1,12 @@
-{% assign image = default: site.header_gif | relative_url %}
+{% assign image = page.header | default: site.header_city | relative_url %}
 {% assign dark = page.header-dark | is_nil: site.header-dark | is_nil: true %}
-
 {% assign svg = "images/logo.svg" | file_exists %}
 {% assign png = "images/logo.png" | file_exists %}
 {% assign jpg = "images/logo.jpg" | file_exists %}
 {% assign logo = svg | default: png | default: jpg | default: nil %}
 
-<header
-  class="background_gif"
+<header2
+  class="background_dark"
   style="--image: url('{{ image }}')"
   {% if dark == true or dark == false %}
     data-dark="{{ dark }}"
@@ -38,9 +37,9 @@
     {% endif %}
   </a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+  <input class="nav2-toggle" type="checkbox" aria-label="show/hide nav">
 
-  <nav>
+  <nav2>
     {% assign pages = site.pages
       | where_exp: "page", "page.nav"
       | sort: "nav.order"
@@ -55,5 +54,34 @@
         </a>
       {% endif %}
     {% endfor %}
-  </nav>
-</header>
+  </nav2>
+  <span style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size:3em; font-weight:900">
+    <div markdown="1">
+      <br/>
+      {{content}}
+      <br/>
+      {%
+        include button.html
+        link="lab"
+        text="Learn more"
+        icon="fa-solid fa-arrow-right"
+      %}
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/> 
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/> 
+      </div>
+  </span>
+</header2>

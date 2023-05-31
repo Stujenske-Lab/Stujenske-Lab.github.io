@@ -1,0 +1,22 @@
+---
+---
+
+.background_dark {
+  position: relative;
+  background: var(--background);
+  color: var(--heading-text);
+  z-index: 1;
+}
+
+.background_dark:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: var(--background-image_style2);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  opacity: 1;
+  z-index: -1;
+}
+

@@ -3,8 +3,11 @@ title: Stujenske Lab
 subtitle: Studying the Cognitive Regulation of Internal States
 description: The Official Website of the Stujenske Lab
 header: images/background.jpg
-footer: images/background.jpg
+footer: "" #images/background.jpg
 header_gif: images/background.gif
+header_city_dark: images/pittsburgh_background.jpg
+header_city: images/Pittsburgh_day.jpg
+header-dark: true
 logo-text: true
 
 # site social media and other links
@@ -25,6 +28,11 @@ defaults:
       path: ""
     values:
       layout: main_page
+  # markdown files in /_lab
+  - scope:
+      path: "lab"
+    values:
+      layout: default
   # markdown files in /_members
   - scope:
       type: "members"

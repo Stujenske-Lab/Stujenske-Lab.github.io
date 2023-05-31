@@ -26,9 +26,9 @@
   term: Stujenske, J[Author] NOT Correction[Title]
   plugin: sources.py
   file: sources.yaml
-  image: https://raw.githubusercontent.com/Stujenske-Lab/Stujenske-Lab.github.io/main/docs/bunddle/images/Neuron2022_abstract.png
+  image: images/Neuron2022_abstract.png
   buttons:
-  - type: source
+  - type: github
     link: https://github.com/jmstujenske/PL_drives_nonaversion_via_SOM_IN
 - id: pubmed:28761080
   title: Serotonin inputs to the dorsal BNST modulate anxiety in a 5-HT
@@ -46,7 +46,7 @@
   term: Stujenske, J[Author] NOT Correction[Title]
   plugin: sources.py
   file: sources.yaml
-  image: https://raw.githubusercontent.com/Stujenske-Lab/Stujenske-Lab.github.io/main/docs/bunddle/images/Garcia2017.png
+  image: images/Garcia2017.png
 - id: pubmed:28542155
   title: Fear from the bottom up.
   authors:
@@ -58,7 +58,7 @@
   term: Stujenske, J[Author] NOT Correction[Title]
   plugin: sources.py
   file: sources.yaml
-  image: https://raw.githubusercontent.com/Stujenske-Lab/Stujenske-Lab.github.io/main/docs/bunddle/images/FearBottom.png
+  image: images/FearBottom.png
 - id: pubmed:28481349
   title: Thalamic projections sustain prefrontal activity during working memory maintenance.
   authors:
@@ -77,7 +77,7 @@
   term: Stujenske, J[Author] NOT Correction[Title]
   plugin: sources.py
   file: sources.yaml
-  image: https://raw.githubusercontent.com/Stujenske-Lab/Stujenske-Lab.github.io/main/docs/bunddle/images/Bolkan.png
+  image: images/Bolkan.png
 - id: pubmed:26166563
   title: Modeling the Spatiotemporal Dynamics of Light and Heat Propagation for In
     Vivo Optogenetics.
@@ -91,9 +91,9 @@
   term: Stujenske, J[Author] NOT Correction[Title]
   plugin: sources.py
   file: sources.yaml
-  image: https://raw.githubusercontent.com/Stujenske-Lab/Stujenske-Lab.github.io/main/docs/bunddle/images/Heat.png
+  image: images/Heat.png
   buttons:
-  - type: source
+  - type: github
     link: https://github.com/jmstujenske/Spatiotemporal-Dynamics-Fiber-Optic
 - id: pubmed:26140594
   title: Neural Representations of Unconditioned Stimuli in Basolateral Amygdala Mediate
@@ -115,7 +115,7 @@
   term: Stujenske, J[Author] NOT Correction[Title]
   plugin: sources.py
   file: sources.yaml
-  image: https://raw.githubusercontent.com/Stujenske-Lab/Stujenske-Lab.github.io/main/docs/bunddle/images/Gore.png
+  image: images/Gore.png
 - id: pubmed:25144877
   title: Fear and safety engage competing patterns of theta-gamma coupling in the
     basolateral amygdala.
@@ -130,7 +130,7 @@
   term: Stujenske, J[Author] NOT Correction[Title]
   plugin: sources.py
   file: sources.yaml
-  image: https://raw.githubusercontent.com/Stujenske-Lab/Stujenske-Lab.github.io/main/docs/bunddle/images/ThetaGamma.png
+  image: images/ThetaGamma.png
 - id: pubmed:24241397
   title: Prefrontal entrainment of amygdala activity signals safety in learned fear
     and innate anxiety.
@@ -146,7 +146,7 @@
   term: Stujenske, J[Author] NOT Correction[Title]
   plugin: sources.py
   file: sources.yaml
-  image: https://raw.githubusercontent.com/Stujenske-Lab/Stujenske-Lab.github.io/main/docs/bunddle/images/Likhtik.png
+  image: images/Likhtik.png
 - id: pubmed:21460263
   title: The bugeye mutant zebrafish exhibits visual deficits that arise with the
     onset of an enlarged eye phenotype.
@@ -160,4 +160,4 @@
   term: Stujenske, J[Author] NOT Correction[Title]
   plugin: sources.py
   file: sources.yaml
-  image: https://raw.githubusercontent.com/Stujenske-Lab/Stujenske-Lab.github.io/main/docs/bunddle/images/zebrafish.png
+  image: images/zebrafish.png

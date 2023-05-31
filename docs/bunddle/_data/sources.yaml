@@ -1,33 +1,33 @@
 - id: pubmed:35397211
-  image: https://raw.githubusercontent.com/Stujenske-Lab/Stujenske-Lab.github.io/main/docs/bunddle/images/Neuron2022_abstract.png
+  image: images/Neuron2022_abstract.png
   buttons:
-    - type: source
+    - type: github
       link: https://github.com/jmstujenske/PL_drives_nonaversion_via_SOM_IN
  
 - id: pubmed:28761080
-  image: https://raw.githubusercontent.com/Stujenske-Lab/Stujenske-Lab.github.io/main/docs/bunddle/images/Garcia2017.png
+  image: images/Garcia2017.png
  
 - id: pubmed:28542155
-  image: https://raw.githubusercontent.com/Stujenske-Lab/Stujenske-Lab.github.io/main/docs/bunddle/images/FearBottom.png
+  image: images/FearBottom.png
  
 - id: pubmed:28481349
-  image: https://raw.githubusercontent.com/Stujenske-Lab/Stujenske-Lab.github.io/main/docs/bunddle/images/Bolkan.png
+  image: images/Bolkan.png
  
 - id: pubmed:26166563
-  image: https://raw.githubusercontent.com/Stujenske-Lab/Stujenske-Lab.github.io/main/docs/bunddle/images/Heat.png
+  image: images/Heat.png
   buttons:
-    - type: source
+    - type: github
       link: https://github.com/jmstujenske/Spatiotemporal-Dynamics-Fiber-Optic
 
 - id: pubmed:26140594
-  image: https://raw.githubusercontent.com/Stujenske-Lab/Stujenske-Lab.github.io/main/docs/bunddle/images/Gore.png
+  image: images/Gore.png
  
 - id: pubmed:25144877
-  image: https://raw.githubusercontent.com/Stujenske-Lab/Stujenske-Lab.github.io/main/docs/bunddle/images/ThetaGamma.png
+  image: images/ThetaGamma.png
  
 - id: pubmed:24241397
-  image: https://raw.githubusercontent.com/Stujenske-Lab/Stujenske-Lab.github.io/main/docs/bunddle/images/Likhtik.png
+  image: images/Likhtik.png
  
 - id: pubmed:21460263
-  image: https://raw.githubusercontent.com/Stujenske-Lab/Stujenske-Lab.github.io/main/docs/bunddle/images/zebrafish.png
+  image: images/zebrafish.png
  

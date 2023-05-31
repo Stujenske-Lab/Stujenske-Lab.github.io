@@ -6,21 +6,25 @@
   --primary: #0ea5e9;
   --secondary: #7dd3fc;
   --text: #000000;
+  --white: #ffffff;
   --background: #ffffff;
   --background-alt: #fafafa;
   --light-gray: #e0e0e0;
   --gray: #b6b6b6;
   --overlay: #00000020;
+  --background-image_style: url(images/Pittsburgh_day.jpg);
 }
 [data-dark="true"] {
   --primary: #0ea5e9;
   --secondary: #075985;
   --text: #ffffff;
+  --white: #ffffff;
   --background: #181818;
   --background-alt: #1c1c1c;
   --light-gray: #404040;
   --gray: #b6b6b6;
   --overlay: #ffffff10;
+  --background-image_style: url(images/pittsburgh_background.jpg);
 }
 
 :root {
@@ -31,10 +35,10 @@
   --code: "Roboto Mono", monospace;
 
   // font sizes
-  --medium: 1rem;
-  --large: 1.2rem;
-  --xl: 1.4rem;
-  --xxl: 1.6rem;
+  --medium: 1.4rem;
+  --large: 1.6rem;
+  --xl: 1.8rem;
+  --xxl: 2.0rem;
 
   // font weights
   --thin: 200;
@@ -48,4 +52,6 @@
   // effects
   --rounded: 3px;
   --shadow: 0 0 10px 0 var(--overlay);
+  --background-image_style2: var(--background-image_style);
+  --heading-text: var(--text);
 }

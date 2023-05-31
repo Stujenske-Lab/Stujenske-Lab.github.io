@@ -1,21 +1,21 @@
 ---
 ---
-
-$logo-big: 200px;
+$logo-big: 100px;
 $logo: 40px;
 $big-padding: 10px;
-$collapse: 700px;
+$collapse: 1420px;
 $limit-title: 400px;
 $sticky: true;
 
 header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: nowrap;
-  gap: 20px;
+  gap: 0px;
+  margin: 0px 0;
+  flex-wrap: wrap;
+  width: 100%;
   padding: 20px;
   box-shadow: var(--shadow);
+  justify-content: space-between;
 
   @if $sticky {
     position: sticky !important;
@@ -32,14 +32,15 @@ header a {
 .home {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
-  gap: 10px;
+  align-items: flex-start;
+  gap: 0px;
   flex-basis: 0;
   flex-grow: 1;
-  max-width: 100%;
+  min-width: calc(100% * 1/2 - 30px - 1px);
 }
 
 .logo {
+  justify-content: flex-start;
   height: $logo;
 }
 
@@ -49,6 +50,7 @@ header a {
 
 .title {
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: baseline;
   flex-wrap: wrap;
@@ -69,42 +71,17 @@ header a {
   font-weight: var(--medium);
 }
 
-.nav-toggle {
-  display: none;
-  position: relative;
-  width: 30px;
-  height: 30px;
-  margin: 0;
-  color: var(--text);
-  -webkit-appearance: none;
-  appearance: none;
-  transition-property: background;
-}
-
-.nav-toggle:after {
-  content: "\f0c9";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  color: var(--text);
-  font-size: 15px;
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
-  transform: translate(-50%, -50%);
-}
-
-.nav-toggle:checked:after {
-  content: "\f00d";
-}
-
 nav {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-start;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
   font-family: var(--heading);
+  font-size: 24px;
+  font-weight: 500;
   text-transform: uppercase;
+  min-width: calc(100% * 1/2 - 1px);
 }
 
 nav > a {
@@ -115,10 +92,68 @@ nav > a:hover {
   color: var(--primary);
 }
 
-header:not([data-big]) {
-  @media (max-width: $collapse) {
-    justify-content: flex-end;
+.nav-toggle {
+  display: none;
+  position: absolute;
+  justify-content: center;
+  width: 30px;
+  height: 20px;
+  margin: 0;
+  left: calc(100% - 30px);
+  top: 20px;
+  color: var(--text);
+  -webkit-appearance: none;
+  appearance: none;
+  transition-property: background;
+}
 
+.nav-toggle:after {
+  content: "\f0c9";
+  position: absolute;
+  justify-content: flex-end;
+  align-items: flex-end;
+  left: calc(100% - 30px);
+  top: 0px;
+  color: var(--text);
+  font-size: 15px;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  transform: translate(-50%, -50%);
+  flex-direction: row;
+}
+
+.nav-toggle:checked:after {
+  content: "\f00d";
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-family: var(--heading);
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  min-width: calc(100% * 1/2 - 1px);
+}
+
+nav > a {
+  padding: 5px;
+}
+
+nav > a:hover {
+  color: var(--primary);
+}
+
+header {
+  @media (max-width: $collapse) {
+    justify-content: flex-start;
+    
+    .home {
+      min-width: calc(75% - 31px)
+    }
     .nav-toggle {
       display: flex;
     }
@@ -130,16 +165,13 @@ header:not([data-big]) {
     nav {
       align-items: flex-end;
       flex-direction: column;
-      width: 100%;
+      min-width: 25%;
     }
   }
 }
 
 header[data-big] {
-  justify-content: center;
-  align-items: left;
-  flex-direction: column;
-  padding: $big-padding 0px;
+  flex-direction: row;
 
   @if $sticky {
     top: unset;
@@ -152,12 +184,14 @@ header[data-big] {
 
   .logo {
     height: $logo-big;
+    aspect-ratio: 1.2;
+    align-items: flex-start
   }
 
   .title {
     flex-direction: column;
     align-items: left;
-    text-align: center;
+    text-align: left;
   }
 
   .title > *:first-child {
@@ -167,7 +201,7 @@ header[data-big] {
   .title > *:last-child {
     font-size: 24px;
   }
-  
+
 }
 
 @media (max-width: $limit-title) {
@@ -179,5 +213,4 @@ header[data-big] {
   .title > *:not(:first-child) {
     display: none;
   }
-  
 }
