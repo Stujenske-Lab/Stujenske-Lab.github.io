@@ -1,3 +1,6 @@
+# jekyll theme
+theme: null
+
 # site properties and page defaults
 title: Stujenske Lab
 subtitle: Studying the Cognitive Regulation of Internal States
@@ -92,9 +95,6 @@ plugins:
 
 # code block syntax highlighting
 highlighter: rouge
-
-# jekyll theme
-theme: minima
 
 # sass settings
 sass:
