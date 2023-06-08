@@ -112,3 +112,4 @@ exclude:
   - CITATION.cff
   - _posts
   - tmp
+  - blog
