@@ -1,9 +1,9 @@
 - title: Two photon calcium imaging
   group: featured
-  subtitle: Imaging activity in genetically-identified and spatially-localized neurons
+  subtitle: Imaging activity in genetically-identified and spatially-localized neurons in vivo
   image: images/background.gif
   link: projects/#the-spatial-topography-of-medial-prefrontal-cortical-encoding
-  description: This is a major technique used by the lab to under coding of information in individual cells and neural populations.
+  description: This is a major technique used by the lab to understand coding of information in individual cells and neural populations across time.
   tags:
     - imaging
     - technique
@@ -13,7 +13,7 @@
   subtitle: In vivo extracellular recordings
   image: images/Ephys.jpg
   link: https://doi.org/10.1002/cpns.32
-  description: This is another major technique used by the lab to track activity in neural populations, with high temporal resolution. We use micro-LED silicon probes and CMOS-based high density probes, among other electrophysiological techniques.
+  description: This is another major technique for tracking activity in neural populations. We use micro-LED silicon probes and CMOS-based high density probes, among other approaches.
   tags:
     - electrophysiology
     - technique
@@ -23,7 +23,7 @@
   subtitle: Understanding cell types and connections
   image: images/Anatomy.jpg
   link: projects/#inhibitory-control-of-the-amygdala
-  description: Our lab uses immunohistochemical and viral approaches to understand cells and circuits.
+  description: Our lab uses immunostaining, brain clearing, and viral approaches to understand cells and circuits.
   tags:
     - technique
 

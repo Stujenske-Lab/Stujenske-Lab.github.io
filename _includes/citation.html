@@ -10,6 +10,8 @@
     <a
       href="{{ citation.link | relative_url }}"
       class="citation-image"
+      target="_blank"
+      rel="noopener noreferrer"
       aria-label="{{ citation.title | default: "citation link" }}"
     >
       <img
@@ -25,7 +27,7 @@
     {% assign type = site.data.types[citation.type] %}
     {% include icon.html icon=type.icon %}
 
-    <a href="{{ citation.link }}" class="citation-title">
+    <a href="{{ citation.link }}" target="_blank" rel="noopener noreferrer" class="citation-title">
       {{ citation.title }}
     </a>
 

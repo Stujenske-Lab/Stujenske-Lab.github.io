@@ -1,6 +1,5 @@
 ---
 ---
-
 .background {
   position: relative;
   background: var(--background);
@@ -17,6 +16,6 @@
   background-size: auto;
   background-repeat: repeat;
   background-position: 0% 0%;
-  opacity: 1;
+  opacity: var(--opacityval);
   z-index: -1;
 }

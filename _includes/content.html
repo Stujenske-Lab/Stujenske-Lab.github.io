@@ -21,6 +21,7 @@
     | regex_scan: "background: (.*);"
     | default: nil
   %}
+  {% assign opacityval = section | regex_scan: "opacityval: (.*);" default: 1.0 %}
   {% assign size = section | regex_scan: "size: (.*);" | default: "page" %}
 
   <section
@@ -30,7 +31,7 @@
       data-dark="{{ dark }}"
     {% endif %}
     {% if background %}
-      style="--image: url('{{ background | relative_url }}')"
+      style="--image: url('{{ background | relative_url }}'); --opacityval: {{ opacityval }}"
     {% endif %}
   >
     {{ section }}

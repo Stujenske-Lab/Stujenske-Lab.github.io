@@ -14,11 +14,15 @@ The Stujenske lab is relatively new, and current lab members may not yet be adde
 {% include list.html data="members" component="portrait" filters="role: pi" %}
 {% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
 
-{% include section.html background="images/background.jpg" dark=true %}
+{% include section.html background="images/background.jpg" dark=true opacityval=".5" %}
 
-# We are hiring!
-The laboratory has funding for multiple positions, including lab technicians, graduate students, and postdocs. Postdoc candidate should have experience with computer programming, imaging, or electrophysiology. Prospective graduate students should have an interest in learning programming if they do not start with this skill. Please contact Dr. Stujenske using the link below to express your interest.
-
+# <span style="color:white">We are hiring!</span>
+<span style="color:white">
+  The laboratory has funding for multiple positions, including lab technicians, graduate students, and postdocs. <br/><br/>
+    ***Technicians***: Experimental experience preferred but not required. <br/>
+    ***Graduate students***: Should have an interest in programming and imaging or electrophysiology. <br/>
+    ***Postdocs***: Experience with computer programming, imaging, or electrophysiology strongly preferred.
+</span>
 {%
   include button.html
   type="email"
