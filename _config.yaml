@@ -110,6 +110,6 @@ exclude:
   - README.md
   - LICENSE.md
   - CITATION.cff
-  - _posts
-  - tmp
-  - blog
+  - _posts/
+  - tmp/
+  - blog/
