@@ -1,0 +1,22 @@
+---
+---
+
+.background_footer {
+  position: relative;
+  background: var(--background-footer);
+  color: var(--heading-text);
+  z-index: 1;
+  font-size: 1.4rem;
+}
+
+.background_footer:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: var(--image);
+  background-size: auto;
+  background-repeat: repeat;
+  background-position: 0% 0%;
+  opacity: 1;
+  z-index: -1;
+}

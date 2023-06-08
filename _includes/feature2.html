@@ -1,0 +1,31 @@
+<div
+  class="feature2"
+  {% if include.flip %}
+    data-flip
+  {% endif %}
+>
+  <a
+    {% if include.link %}
+      href="{{ include.link | relative_url }}" 
+    {% endif %}
+    class="feature2-image"
+    aria-label="{{ include.title | default: "feature2 link" }}"
+  >
+    <img
+      src="{{ include.image | relative_url }}"
+      loading="lazy"
+      alt="{{ include.title | default: "feature2 image" }}"
+      {% include fallback.html %}
+    >
+    {% if include.caption %}
+      {{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}
+    {% endif %}
+  </a>
+
+  <div class="feature2-text">
+    {% if include.title %}
+      <p class="feature2-title">{{ include.title }}</p>
+    {% endif %}
+    {{ include.text | markdownify }}
+  </div>
+</div>

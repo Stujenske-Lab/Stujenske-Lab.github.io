@@ -1,0 +1,28 @@
+---
+---
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: left;
+  flex-direction: row;
+  gap: 20px;
+  padding: 40px;
+  line-height: var(--spacing);
+  box-shadow: var(--shadow);
+  background-color: var(--background-footer);
+}
+
+footer a {
+  color: var(--heading-text) !important;
+}
+
+footer a:hover {
+  color: var(--primary) !important;
+}
+
+footer .icon {
+  font-size: var(--xl);
+}

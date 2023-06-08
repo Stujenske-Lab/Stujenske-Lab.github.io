@@ -1,0 +1,136 @@
+- title: Two photon calcium imaging
+  group: featured
+  subtitle: Imaging activity in genetically-identified and spatially-localized neurons
+  image: images/background.gif
+  link: projects/#the-spatial-topography-of-medial-prefrontal-cortical-encoding
+  description: This is a major technique used by the lab to under coding of information in individual cells and neural populations.
+  tags:
+    - imaging
+    - technique
+
+- title: Electrophysiology
+  group: featured
+  subtitle: In vivo extracellular recordings
+  image: images/Ephys.jpg
+  link: https://doi.org/10.1002/cpns.32
+  description: This is another major technique used by the lab to track activity in neural populations, with high temporal resolution. We use micro-LED silicon probes and CMOS-based high density probes, among other electrophysiological techniques.
+  tags:
+    - electrophysiology
+    - technique
+
+- title: Anatomy
+  group: featured
+  subtitle: Understanding cell types and connections
+  image: images/Anatomy.jpg
+  link: projects/#inhibitory-control-of-the-amygdala
+  description: Our lab uses immunohistochemical and viral approaches to understand cells and circuits.
+  tags:
+    - technique
+
+- title: Optogenetics
+  group: featured
+  subtitle: Manipulating cells and circuits
+  image: images/optogenetics_ephys.jpg
+  link: https://doi.org/10.1038/s43586-022-00136-4
+  description: Our lab uses optogenetics to activate or silence cells and circuits, while monitoring the effects using electrophysiology. See "modeling for optogenetics" below.
+  tags:
+    - technique
+  
+- title: Fiber photometry
+  group: featured
+  subtitle: Tracking genetically defined populations
+  image: images/fiberphotometry.jpg
+  link: projects/#the-cognitive-regulation-of-internal-states
+  description: Our lab uses fiber photometry to explore the activity of genetically-defined populations and projections.
+  tags:
+    - imaging
+    - technique
+
+- title: Behavior and physiology
+  group: featured
+  subtitle: Tracking behavioral and physiological metrics of internal state response simultaneously
+  image: images/BehavSomat.png
+  link: projects/#the-cognitive-regulation-of-internal-states
+  description: Our lab has a method to non-invasively track multiple behavioral and somatic parameters that response to environmental changes.
+  tags:
+    - technique
+
+- title: Modeling for Optogenetics
+  group: Stujenske
+  subtitle: Predict light and heat spread from optic fibers
+  image: images/Heat_Rect.png
+  link: https://github.com/jmstujenske/Spatiotemporal-Dynamics-Fiber-Optic
+  description: This is a github package containing the code for Monte Carlo and heat diffusion simulations as published in Stujenske et al., 2014, Cell Reports.
+  repo: jmstujenske/Spatiotemporal-Dynamics-Fiber-Optic
+  tags:
+    - software
+    - publication
+    - technique
+
+- title: Tiff Read & Write
+  group: Stujenske
+  subtitle: Suite of tools for fast reading and writing of uncompressed tiffs in Matlab.
+  image: images/TiffViewer_ROI.png
+  link: https://github.com/jmstujenske/Matlab_FastTiffReadWrite
+  description: Includes TiffViewer, which can load a HUGE tiff stack in a matter of SECONDS. 
+  repo: jmstujenske/Matlab_FastTiffReadWrite
+  tags:
+    - imaging
+    - software
+  
+- title: ReadOIR
+  group: Stujenske
+  subtitle: Read Olympus .oir files in Matlab and/or convert to tiff.
+  image: images/Hard-Disk.jpg
+  link: https://github.com/jmstujenske/ReadOIR
+  description: This is a fork of another repo. Used with Tiff Read & Write repo, can convert .oir files to tiffs quickly.
+  repo: jmstujenske/ReadOIR
+  tags:
+    - imaging
+    - software
+
+
+
+- title: Suite2p
+  group: other
+  subtitle: Calcium imaging package
+  image: images/suite2p.png
+  link: https://github.com/MouseLand/suite2p
+  description: Cell detection based on correlated activity.
+  repo: MouseLand/suite2p
+  tags:
+    - imaging
+    - software
+
+- title: Blender
+  group: other
+  subtitle: 3D design software
+  image: images/blender.png
+  link: https://www.blender.org/
+  description: This is a very versatile software that we use for designing 3D prints. 
+  repo: blender/blender
+  tags:
+    - software
+
+- title: Kilosort
+  group: other
+  subtitle: Spike sorting software
+  image: images/kilosort.png
+  link: https://github.com/MouseLand/Kilosort
+  description: We use this for spike sorting from electrophysiological recordings.
+  repo: MouseLand/Kilosort
+  tags:
+    - electrophysiology
+    - software
+
+- title: Phy
+  group: other
+  subtitle: Visualizing electrophysiological data
+  image: images/phy.png
+  link: https://github.com/cortex-lab/phy
+  description: We use this for cell selection after kilosort.
+  repo: cortex-lab/phy
+  tags:
+    - software
+    - electrophysiology
+

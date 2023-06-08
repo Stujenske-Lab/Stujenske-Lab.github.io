@@ -1,0 +1,217 @@
+---
+---
+$logo-big: 100px;
+$logo: 40px;
+$big-padding: 10px;
+$collapse: 1420px;
+$limit-title: 400px;
+$sticky: true;
+
+header {
+  display: flex;
+  gap: 0px;
+  margin: 0px 0;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px;
+  box-shadow: var(--shadow);
+  justify-content: space-between;
+
+  @if $sticky {
+    position: sticky !important;
+    top: 0;
+    z-index: 10 !important;
+  }
+}
+
+header a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.home {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0px;
+  flex-basis: 0;
+  flex-grow: 1;
+  min-width: calc(100% * 1/2 - 30px - 1px);
+}
+
+.logo {
+  justify-content: flex-start;
+  height: $logo;
+}
+
+.logo > * {
+  height: 100%;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 5px;
+  min-width: 0;
+  font-family: var(--title);
+  text-align: left;
+  padding: 0px 10px 10px 10px;
+}
+
+// main title
+.title > *:first-child {
+  font-size: var(--large);
+}
+
+// subtitle
+.title > *:last-child {
+  color: var(--gray);
+  font-weight: var(--medium);
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-family: var(--heading);
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  min-width: calc(100% * 1/2 - 1px);
+}
+
+nav > a {
+  padding: 5px;
+}
+
+nav > a:hover {
+  color: var(--primary);
+}
+
+.nav-toggle {
+  display: none;
+  position: absolute;
+  justify-content: center;
+  width: 30px;
+  height: 20px;
+  margin: 0;
+  left: calc(100% - 30px);
+  top: 20px;
+  color: var(--text);
+  -webkit-appearance: none;
+  appearance: none;
+  transition-property: background;
+}
+
+.nav-toggle:after {
+  content: "\f0c9";
+  position: absolute;
+  justify-content: flex-end;
+  align-items: flex-end;
+  left: calc(100% - 30px);
+  top: 0px;
+  color: var(--text);
+  font-size: 15px;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  transform: translate(-50%, -50%);
+  flex-direction: row;
+}
+
+.nav-toggle:checked:after {
+  content: "\f00d";
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-family: var(--heading);
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  min-width: calc(100% * 1/2 - 1px);
+}
+
+nav > a {
+  padding: 5px;
+}
+
+nav > a:hover {
+  color: var(--primary);
+}
+
+header {
+  @media (max-width: $collapse) {
+    justify-content: flex-start;
+    
+    .home {
+      min-width: calc(75% - 31px)
+    }
+    .nav-toggle {
+      display: flex;
+    }
+
+    .nav-toggle:not(:checked) + nav {
+      display: none;
+    }
+
+    nav {
+      align-items: flex-end;
+      flex-direction: column;
+      min-width: 25%;
+    }
+  }
+}
+
+header[data-big] {
+  flex-direction: row;
+
+  @if $sticky {
+    top: unset;
+  }
+
+  .home {
+    flex-direction: row;
+    flex-grow: 0;
+  }
+
+  .logo {
+    height: $logo-big;
+    aspect-ratio: 1.2;
+    align-items: flex-start
+  }
+
+  .title {
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+  }
+
+  .title > *:first-child {
+    font-size: 40px;
+  }
+
+  .title > *:last-child {
+    font-size: 24px;
+  }
+
+}
+
+@media (max-width: $limit-title) {
+  
+  .title > *:first-child {
+    font-size: var(--medium);
+  }
+
+  .title > *:not(:first-child) {
+    display: none;
+  }
+}
