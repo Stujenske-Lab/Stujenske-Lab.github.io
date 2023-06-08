@@ -62,10 +62,10 @@ defaults:
     values:
       layout: default
   # markdown files in /blog
-  - scope:
-      path: "blog"
-    values:
-      layout: default
+  #- scope:
+  #    path: "blog"
+  #  values:
+  #    layout: default
   # markdown files in /tools
   - scope:
       path: "tools"
