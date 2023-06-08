@@ -110,3 +110,5 @@ exclude:
   - README.md
   - LICENSE.md
   - CITATION.cff
+  - _posts
+  - tmp
