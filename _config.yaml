@@ -1,112 +1,75 @@
-# jekyll theme
 theme: null
-
-# site properties and page defaults
-title: Stujenske Lab
+title: Stujenske-Lab
 subtitle: Studying the Cognitive Regulation of Internal States
-description: The Official Website of the Stujenske Lab
+description: An engaging 1-3 sentence description of your lab.
 header: images/background.jpg
-footer: "" #images/background.jpg
+footer: ""
 header_gif: images/background.gif
 header_city_dark: _styles/images/pittsburgh_background.jpg
 header_city: _styles/images/Pittsburgh_day.jpg
 header-dark: true
 logo-text: true
-
-# site social media and other links
 links:
   email: stujenske.lab@gmail.com
   orcid: 0000-0002-5188-717X
   google-scholar: Rj1TCzUAAAAJ
   github: Stujenske-lab
   twitter: jmstujenske
-#  youtube: YourLabChannel
-
-### jekyll settings
-
-# front matter defaults
 defaults:
-  # all markdown files
   - scope:
       path: ""
     values:
       layout: main_page
-  # markdown files in /_lab
   - scope:
-      path: "lab"
+      path: lab
     values:
       layout: default
-  # markdown files in /_members
   - scope:
-      type: "members"
+      type: members
     values:
       layout: member
-  # markdown files in /_posts
   - scope:
-      type: "posts"
+      type: posts
     values:
       layout: post
-  # markdown files in /team
   - scope:
-      path: "team"
+      path: team
     values:
       layout: default
-  # markdown files in /research
   - scope:
-      path: "publications"
+      path: publications
     values:
       layout: default
-  # markdown files in /contact
   - scope:
-      path: "contact"
+      path: contact
     values:
       layout: default
-  # markdown files in /blog
-  #- scope:
-  #    path: "blog"
-  #  values:
-  #    layout: default
-  # markdown files in /tools
   - scope:
-      path: "tools"
+      path: tools
     values:
       layout: default
-  # markdown files in /projects
   - scope:
-      path: "projects"
+      path: projects
     values:
       layout: default
-
 collections:
-  # generate page for each member
   members:
     output: true
-  # generate page for each post
   posts:
     output: true
-
-# jekyll plugins
 plugins:
   - jekyll-spaceship
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-feed
   - jekyll-last-modified-at
-
-# code block syntax highlighting
 highlighter: rouge
-
-# sass settings
 sass:
   sass_dir: _styles
-
-# force jekyll to include certain files/folders
 include:
   - _styles
   - _scripts
   - _posts
-
-# force jekyll to exclude certain files/folders
 exclude:
   - README.md
   - LICENSE.md
@@ -114,3 +77,8 @@ exclude:
   - _posts/
   - tmp/
   - blog/
+email: contact@Stujenske-Lab.com
+github: Stujenske-Lab
+twitter: Stujenske-Lab
+instagram: Stujenske-Lab
+youtube: Stujenske-Lab
