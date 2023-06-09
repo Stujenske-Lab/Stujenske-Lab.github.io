@@ -15,9 +15,11 @@ nav:
 **D.** Fear retrieval session of a water-restricted mouse. The fear conditioned cue (CS+) leads to decreased licking and tachypnea. As shown, trial-by-trial HR, RR, and pupil size exhibit periods of uncorrelation.
 **E.** Deep layer mPFC cells expressing jGCaMP8s were imaged and have event-locked activations." width="100%" %}
 {% endcapture %}
-{% include float.html content=content width="200px" flip=true text=text%}
+
 A prevailing view is that fear is an internal brain state underlying observable manifestations including defensive behavior and somatic responses (e.g., pupil dilation)
 ([Review by Anderson & Adolphs, 2014](https://www.cell.com/fulltext/S0092-8674(14)00292-X){:target="_blank"}{:rel="noopener noreferrer"}). The neural mechanisms by which such internal states are generated and controlled are not well-understood. Fear is well-conserved across species and provides a tractable model for understanding how internal states are regulated. A circuit understanding of Internal state control is relevant to the relationship between arousal and emotion, about which multiple competing theories exist; for instance, James-Lange theory proposes that bodily responses trigger emotions, implying that regulation of somatic response is critical for top-down control. These circuits are also therapeutically relevant, as spatial localization of internal state regulators may allow for targeting with trans-magnetic stimulation, while physiological treatments like vagus nerve stimulation and biofeedback treatments may be optimized based on circuit logic. Relevant microcircuits may also contain novel pharmacological targets.
+
+{% include float.html content=content width="200px" flip=true text=text%}
 
 The psychotherapeutic treatment of psychiatric disorders strongly suggests that individuals can learn to exert cognitive control over internal states. The Stujenske Lab aims to test the overarching hypothesis that the medial prefrontal cortex mediates top-down regulation internal states via outputs to subcortical structures. In particular, the Stujenske Lab focuses on the cognitive regulation of fear by studying the process of discrimination between aversive and non-aversive stimuli.
 

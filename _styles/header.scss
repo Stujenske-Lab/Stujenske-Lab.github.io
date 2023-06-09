@@ -5,6 +5,7 @@ $logo: 40px;
 $big-padding: 10px;
 $collapse: 1420px;
 $limit-title: 400px;
+$fullcollapse: 920px;
 $sticky: true;
 
 header {
@@ -34,8 +35,6 @@ header a {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 0px;
-  flex-basis: 0;
-  flex-grow: 1;
   min-width: calc(100% * 1/2 - 30px - 1px);
 }
 
@@ -153,7 +152,7 @@ header {
     justify-content: flex-start;
     
     .home {
-      min-width: calc(75% - 31px)
+      min-width: calc(100% - 231px)
     }
     .nav-toggle {
       display: flex;
@@ -166,7 +165,15 @@ header {
     nav {
       align-items: flex-end;
       flex-direction: column;
-      min-width: 25%;
+      min-width: 200px;
+    }
+  }
+
+  @media (max-width: $fullcollapse) {
+    nav {
+      align-items: flex-end;
+      flex-direction: column;
+      min-width: 100%;
     }
   }
 }
