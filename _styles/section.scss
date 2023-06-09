@@ -4,12 +4,15 @@
 $page: 1200px;
 $padding: 20px;
 
+<<<<<<< Updated upstream
 
 
 
 
 
 
+=======
+>>>>>>> Stashed changes
 section {
   padding: $padding max($padding, calc((100% - $page) / 2));
   transition-property: background, color;
