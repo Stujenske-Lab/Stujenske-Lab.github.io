@@ -99,7 +99,7 @@ nav > a:hover {
   width: 30px;
   height: 20px;
   margin: 0;
-  left: calc(100% - 30px);
+  left: calc(100% - 25px);
   top: 20px;
   color: var(--text);
   -webkit-appearance: none;
@@ -112,7 +112,7 @@ nav > a:hover {
   position: absolute;
   justify-content: flex-end;
   align-items: flex-end;
-  left: calc(100% - 30px);
+  left: calc(100% - 25px);
   top: 0px;
   color: var(--text);
   font-size: 1rem;
@@ -203,11 +203,11 @@ header[data-big] {
   }
 
   .title > *:first-child {
-    font-size: 2.5rem;
+    font-size: min(8vmin,2.5rem);
   }
 
   .title > *:last-child {
-    font-size: 1.5rem;
+    font-size: min(5vmin,1.5rem);
   }
 
 }

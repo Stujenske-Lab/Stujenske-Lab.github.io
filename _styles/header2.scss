@@ -7,7 +7,7 @@ $collapse: 1470px;
 $limit-title: 400px;
 $sticky: true;
 $button_width: 450px;
-$fullcollapse: 920px;
+$fullcollapse: 940px;
 
 header2 {
   display: flex;
@@ -104,7 +104,7 @@ nav2 > a:hover {
   width: 30px;
   height: 20px;
   margin: 0;
-  left: calc(100% - 30px);
+  left: calc(100% - 25px);
   top: 20px;
   color: var(--heading-text);
   -webkit-appearance: none;
@@ -117,7 +117,7 @@ nav2 > a:hover {
   position: absolute;
   justify-content: flex-end;
   align-items: flex-end;
-  left: calc(100% - 30px);
+  left: calc(100% - 25px);
   top: 0px;
   color: var(--heading-text);
   font-size: 1rem;
@@ -208,11 +208,11 @@ header2[data-big] {
   }
 
   .title2 > *:first-child {
-    font-size: 2.5rem;
+    font-size: min(8vmin,2.5rem);
   }
 
   .title2 > *:last-child {
-    font-size: 1.5rem;
+    font-size: min(5vmin,1.5rem);
   }
 
 }
