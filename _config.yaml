@@ -104,6 +104,7 @@ sass:
 include:
   - _styles
   - _scripts
+  - _posts
 
 # force jekyll to exclude certain files/folders
 exclude:
