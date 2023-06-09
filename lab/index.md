@@ -70,7 +70,7 @@ We are dedicated to open science and sharing tools with the neuroscience communi
 
 {%
   include feature.html
-  image="images/Tools.png"
+  image="images/tools.jpg"
   link="tools"
   title="Our Techniques & Tools"
   flip=false
