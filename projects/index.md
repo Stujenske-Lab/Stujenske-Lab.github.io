@@ -48,7 +48,7 @@ The lab is particularly interested in the role of cortical recruitment of inhibi
 ## The spatial topography of medial prefrontal cortical encoding
 
 {% capture content %}
-{% include figure.html image="images/prism_figure.png" caption="**Figure 2. Microprism imaging enables investigates of spatial topography in mPFC.**
+{% include figure.html image="images/Prism_figure.png" caption="**Figure 2. Microprism imaging enables investigates of spatial topography in mPFC.**
 **A.** Schematic of microprism surgeries for imaging across layers (left) or rostrocaudal in layer 2 (right)
 **B.** Representative histology of microprism implantation (as for Aim 2), with virally-expressed jGCaMP6s. White box indicates the imaged plane.
 **C.** Average projection of calcium imaging session from a single SOM-IRES-cre mouse expressing AAV:FLEX-tdTomato and AAV:syn-jGCamp6s. Inset: co-labeled cells (arrow heads). PL, prelimbic cortex; IL, infralimbic cortex; ACC, anterior cingulate
