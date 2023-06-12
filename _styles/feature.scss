@@ -48,6 +48,6 @@ $wrap: 800px;
 
   .feature-image {
     width: unset;
-    min-width: calc($wrap / 2);
+    width: calc($wrap / 2);
   }
 }
