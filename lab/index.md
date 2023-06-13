@@ -80,7 +80,7 @@ We are dedicated to open science and sharing tools with the neuroscience communi
 
 {% capture text %}
 
-The Stujenske Lab is dedicated to fostering an environment where individuals feel valued for their unique experiences and talents. Teamwork and collaboration are at the heart of the our science.
+The Stujenske Lab is dedicated to fostering an environment where individuals feel valued for their unique experiences and talents. Teamwork and collaboration are at the heart of our science.
 
 {%
   include button.html

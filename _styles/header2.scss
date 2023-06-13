@@ -29,7 +29,7 @@ header2 {
 header2 a {
   color: var(--heading-text);
   text-decoration: none;
-  text-shadow: 0px 0px 10px var(--background-alpha);
+  text-shadow: 1px 1px 8px var(--background-alpha);
 }
 
 .home2 {
@@ -66,14 +66,15 @@ header2 a {
 .title2 > *:first-child {
   font-size: var(--large);
   font-weight: 500;
-  text-shadow: 0px 0px 10px var(--background-alpha);
+  text-shadow: 1px 1px 8px var(--background-alpha);
 }
 
 // subtitle
 .title2 > *:last-child {
   color: var(--gray);
   font-weight: var(--medium);
-  text-shadow: 0px 0px 10px var(--background-alpha);
+  background-color: var(--background-alpha);
+  text-shadow: unset;
 }
 
 nav2 {
@@ -223,7 +224,7 @@ maincontent {
   flex-direction: column;
   font-family:Cambria;
   font-weight:600;
-  max-width:50%;
+  max-width:min(100%,$button_width);
   padding: 30px;
   text-align: left;
   justify-content: left;
@@ -235,12 +236,12 @@ maincontent {
   padding: 0px 0px 50px 0px;
 }
 .buttonbox {
-  font-size:5vmin;
-  max-width: min(150%,$button_width);;
+  font-size:min(5vmin,2.5rem);
+  max-width: $button_width;
 }
 .buttonbox2 {
-  font-size:5vmin;
-  max-width: min(150%,$button_width);
+  font-size:min(5vmin,2.5rem);
+  max-width: $button_width;
   height:700px;
 }
 
