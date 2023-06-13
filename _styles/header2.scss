@@ -1,6 +1,6 @@
 ---
 ---
-$logo-big: 100px;
+$logo-big: 80px;
 $logo: 40px;
 $big-padding: 10px;
 $collapse: 1470px;
@@ -65,7 +65,7 @@ header2 a {
 // main title
 .title2 > *:first-child {
   font-size: var(--large);
-  font-weight: 500;
+  font-weight: 450;
   text-shadow: 1px 1px 8px var(--background-alpha);
 }
 
@@ -73,8 +73,7 @@ header2 a {
 .title2 > *:last-child {
   color: var(--gray);
   font-weight: var(--medium);
-  background-color: var(--background-alpha);
-  text-shadow: unset;
+  text-shadow: 1px 1px 8px var(--background-alpha);
 }
 
 nav2 {
@@ -209,7 +208,7 @@ header2[data-big] {
   }
 
   .title2 > *:first-child {
-    font-size: min(8vmin,2.5rem);
+    font-size: min(7vmin,2.5rem);
   }
 
   .title2 > *:last-child {
@@ -232,7 +231,7 @@ maincontent {
 }
 
 .textbox {
-  font-size:2.5rem;
+  font-size:min(8vmin,2.5rem);
   padding: 0px 0px 50px 0px;
 }
 .buttonbox {

@@ -1,6 +1,6 @@
 ---
 ---
-$logo-big: 100px;
+$logo-big: 80px;
 $logo: 40px;
 $big-padding: 10px;
 $collapse: 1420px;
@@ -63,6 +63,7 @@ header a {
 // main title
 .title > *:first-child {
   font-size: var(--large);
+  font-weight: 450;
 }
 
 // subtitle
@@ -203,11 +204,11 @@ header[data-big] {
   }
 
   .title > *:first-child {
-    font-size: min(8vmin,2.5rem);
+    font-size: min(7vmin,2.5rem);
   }
 
   .title > *:last-child {
-    font-size: min(5vmin,1.5rem);
+    font-size: min(4vmin,1.5rem);
   }
 
 }
