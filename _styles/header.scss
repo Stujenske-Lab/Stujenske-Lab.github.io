@@ -4,7 +4,7 @@ $logo-big: 80px;
 $logo: 40px;
 $big-padding: 10px;
 $collapse: 1420px;
-$limit-title: 400px;
+$limit-title: 200px;
 $fullcollapse: 920px;
 $sticky: true;
 
@@ -100,7 +100,7 @@ nav > a:hover {
   width: 30px;
   height: 20px;
   margin: 0;
-  left: calc(100% - 25px);
+  left: calc(100% - 30px);
   top: 20px;
   color: var(--text);
   -webkit-appearance: none;
@@ -113,13 +113,13 @@ nav > a:hover {
   position: absolute;
   justify-content: flex-end;
   align-items: flex-end;
-  left: calc(100% - 25px);
+  left: calc(100% - 30px);
   top: 0px;
   color: var(--text);
   font-size: 1rem;
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
-  transform: translate(-50%, -50%);
+  transform: translate(-10%, -50%);
   flex-direction: row;
 }
 

@@ -4,7 +4,7 @@ $logo-big: 80px;
 $logo: 40px;
 $big-padding: 10px;
 $collapse: 1470px;
-$limit-title: 400px;
+$limit-title: 200px;
 $sticky: true;
 $button_width: 450px;
 $fullcollapse: 940px;
@@ -104,7 +104,7 @@ nav2 > a:hover {
   width: 30px;
   height: 20px;
   margin: 0;
-  left: calc(100% - 25px);
+  left: calc(100% - 30px);
   top: 20px;
   color: var(--heading-text);
   -webkit-appearance: none;
@@ -117,13 +117,13 @@ nav2 > a:hover {
   position: absolute;
   justify-content: flex-end;
   align-items: flex-end;
-  left: calc(100% - 25px);
+  left: calc(100% - 30px);
   top: 0px;
   color: var(--heading-text);
   font-size: 1rem;
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
-  transform: translate(-50%, -50%);
+  transform: translate(-10%, -50%);
   flex-direction: row;
 }
 
@@ -152,35 +152,33 @@ nav2 > a:hover {
   color: var(--primary);
 }
 
-header2 {
-  @media (max-width: $collapse) {
-    justify-content: flex-start;
-    
-    .home2 {
-      min-width: calc(100% - 231px)
-    }
-    .nav2-toggle {
-      display: flex;
-    }
+maincontent {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font-family:Cambria;
+  font-weight:600;
+  max-width:min(100%,$button_width);
+  padding: 30px;
+  text-align: left;
+  justify-content: left;
+  line-height: calc(var(--spacing) - .4);
+}
 
-    .nav2-toggle:not(:checked) + nav2 {
-      display: none;
-    }
+.textbox {
+  font-size:min(8vmin,2.5rem);
+  padding: 0px 0px 50px 0px;
+}
 
-    nav2 {
-      align-items: flex-end;
-      flex-direction: column;
-      min-width: 200px;
-    }
-  }
+.buttonbox {
+  font-size:min(5vmin,2rem);
+  max-width: $button_width;
+}
 
-  @media (max-width: $fullcollapse) {
-    nav2 {
-      align-items: flex-end;
-      flex-direction: column;
-      min-width: 100%;
-    }
-  }
+.buttonbox2 {
+  font-size:min(5vmin,2rem);
+  max-width: $button_width;
+  height:700px;
 }
 
 header2[data-big] {
@@ -217,31 +215,37 @@ header2[data-big] {
 
 }
 
-maincontent {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  font-family:Cambria;
-  font-weight:600;
-  max-width:min(100%,$button_width);
-  padding: 30px;
-  text-align: left;
-  justify-content: left;
-  line-height: calc(var(--spacing) - .4);
-}
+header2 {
+  @media (max-width: $collapse) {
+    justify-content: flex-start;
+    
+    .home2 {
+      min-width: calc(100% - 231px)
+    }
 
-.textbox {
-  font-size:min(8vmin,2.5rem);
-  padding: 0px 0px 50px 0px;
-}
-.buttonbox {
-  font-size:min(5vmin,2rem);
-  max-width: $button_width;
-}
-.buttonbox2 {
-  font-size:min(5vmin,2rem);
-  max-width: $button_width;
-  height:700px;
+    .nav2-toggle {
+      display: flex;
+    }
+
+    .nav2-toggle:not(:checked) + nav2 {
+      display: none;
+    }
+
+    nav2 {
+      align-items: flex-end;
+      flex-direction: column;
+      min-width: 200px;
+    }
+    
+  }
+
+  @media (max-width: $fullcollapse) {
+    nav2 {
+      align-items: flex-end;
+      flex-direction: column;
+      min-width: 100%;
+    }
+  }
 }
 
 @media (max-width: $limit-title) {
