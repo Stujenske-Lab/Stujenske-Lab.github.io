@@ -26,8 +26,9 @@ header {
 }
 
 header a {
-  color: var(--text);
+  color: var(--heading-text);
   text-decoration: none;
+  text-shadow: 1px 1px 8px var(--background-alpha);
 }
 
 .home {
@@ -36,6 +37,7 @@ header a {
   align-items: flex-start;
   gap: 0px;
   min-width: calc(40% - 30px - 1px);
+  height: 100px;
 }
 
 .logo {
@@ -64,12 +66,14 @@ header a {
 .title > *:first-child {
   font-size: var(--large);
   font-weight: 450;
+  text-shadow: 1px 1px 8px var(--background-alpha);
 }
 
 // subtitle
 .title > *:last-child {
   color: var(--gray);
   font-weight: var(--medium);
+  text-shadow: 1px 1px 8px var(--background-alpha);
 }
 
 nav {

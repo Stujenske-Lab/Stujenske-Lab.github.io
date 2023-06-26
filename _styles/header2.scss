@@ -7,17 +7,18 @@ $collapse: 1260px;
 $limit-title: 200px;
 $sticky: true;
 $button_width: 450px;
-$fullcollapse: 940px;
+$fullcollapse: 0px;
 
 header2 {
   display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
   gap: 0px;
   margin: 0px 0;
-  flex-wrap: wrap;
-  width: 100%;
+  flex-wrap: nowrap;
+  height: max(100vh,750px);
   padding: 20px;
   box-shadow: var(--shadow);
-  justify-content: space-between;
 
   @if $sticky {
     position: sticky !important;
@@ -38,6 +39,7 @@ header2 a {
   align-items: flex-start;
   gap: 0px;
   min-width: min(400px, calc(40% - 30px - 1px));
+  height: 100px;
 }
 
 .logo2 {
@@ -83,7 +85,7 @@ nav2 {
   flex-wrap: wrap;
   gap: 10px;
   font-family: var(--heading);
-  font-size: 1.5rem;
+  font-size: min( 1.5rem , 5vmin );
   font-weight: 500;
   text-transform: uppercase;
   min-width: calc(60% - 1px);
@@ -135,6 +137,9 @@ maincontent {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  position: absolute;
+  left: 20px;
+  top: 300px;
   font-family:Cambria;
   font-weight:600;
   max-width:min(100%,$button_width);
@@ -157,7 +162,6 @@ maincontent {
 .buttonbox2 {
   font-size:min(5vmin,2rem);
   max-width: $button_width;
-  height:700px;
 }
 
 header2[data-big] {
@@ -189,7 +193,7 @@ header2[data-big] {
   }
 
   .title2 > *:last-child {
-    font-size: min(5vmin,1.5rem);
+    font-size: min(4vmin,1.5rem);
   }
 
 }
