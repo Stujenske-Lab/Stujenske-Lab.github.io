@@ -2,15 +2,16 @@
 ---
 
 $page: 1200px;
-$padding: 40px;
+$padding_top: 40px;
+$padding: 15px;
 
 section {
-  padding: $padding max($padding, calc((100% - $page) / 2));
+  padding: $padding_top max($padding, calc((100% - $page) / 2));
   transition-property: background, color;
 }
 
 section[data-size="wide"] {
-  padding: $padding;
+  padding: $padding_top;
 }
 
 section[data-size="full"] {

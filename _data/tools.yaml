@@ -81,7 +81,7 @@
 - title: ReadOIR
   group: Stujenske
   subtitle: Read Olympus .oir files in Matlab and/or convert to tiff.
-  image: images/Hard-Disk.jpg
+  image: images/hard-disk.jpg
   link: https://github.com/jmstujenske/ReadOIR
   description: This is a fork of another repo. Used with Tiff Read & Write repo, can convert .oir files to tiffs quickly.
   repo: jmstujenske/ReadOIR

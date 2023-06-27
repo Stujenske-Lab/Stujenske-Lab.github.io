@@ -1,10 +1,11 @@
 ---
 ---
-$logo-big: 100px;
+$logo-big: 80px;
 $logo: 40px;
 $big-padding: 10px;
-$collapse: 1420px;
-$limit-title: 400px;
+$collapse: 1200px;
+$limit-title: 200px;
+$fullcollapse: 920px;
 $sticky: true;
 
 header {
@@ -25,8 +26,9 @@ header {
 }
 
 header a {
-  color: var(--text);
+  color: var(--heading-text);
   text-decoration: none;
+  text-shadow: 1px 1px 8px var(--background-alpha);
 }
 
 .home {
@@ -34,9 +36,8 @@ header a {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 0px;
-  flex-basis: 0;
-  flex-grow: 1;
-  min-width: calc(100% * 1/2 - 30px - 1px);
+  min-width: calc(40% - 30px - 1px);
+  height: 100px;
 }
 
 .logo {
@@ -64,12 +65,15 @@ header a {
 // main title
 .title > *:first-child {
   font-size: var(--large);
+  font-weight: 450;
+  text-shadow: 1px 1px 8px var(--background-alpha);
 }
 
 // subtitle
 .title > *:last-child {
   color: var(--gray);
   font-weight: var(--medium);
+  text-shadow: 1px 1px 8px var(--background-alpha);
 }
 
 nav {
@@ -77,12 +81,12 @@ nav {
   justify-content: flex-end;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 10px;
   font-family: var(--heading);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
   text-transform: uppercase;
-  min-width: calc(100% * 1/2 - 1px);
+  min-width: calc(60% - 1px);
 }
 
 nav > a {
@@ -116,10 +120,10 @@ nav > a:hover {
   left: calc(100% - 30px);
   top: 0px;
   color: var(--text);
-  font-size: 15px;
+  font-size: 1rem;
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
-  transform: translate(-50%, -50%);
+  transform: translate(-10%, -50%);
   flex-direction: row;
 }
 
@@ -127,33 +131,12 @@ nav > a:hover {
   content: "\f00d";
 }
 
-nav {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 20px;
-  font-family: var(--heading);
-  font-size: 24px;
-  font-weight: 500;
-  text-transform: uppercase;
-  min-width: calc(100% * 1/2 - 1px);
-}
-
-nav > a {
-  padding: 5px;
-}
-
-nav > a:hover {
-  color: var(--primary);
-}
-
 header {
   @media (max-width: $collapse) {
     justify-content: flex-start;
     
     .home {
-      min-width: calc(75% - 31px)
+      min-width: calc(100% - 231px)
     }
     .nav-toggle {
       display: flex;
@@ -166,7 +149,15 @@ header {
     nav {
       align-items: flex-end;
       flex-direction: column;
-      min-width: 25%;
+      min-width: 200px;
+    }
+  }
+
+  @media (max-width: $fullcollapse) {
+    nav {
+      align-items: flex-end;
+      flex-direction: column;
+      min-width: 100%;
     }
   }
 }
@@ -196,11 +187,11 @@ header[data-big] {
   }
 
   .title > *:first-child {
-    font-size: 40px;
+    font-size: min(7vmin,2.5rem);
   }
 
   .title > *:last-child {
-    font-size: 24px;
+    font-size: min(4vmin,1.5rem);
   }
 
 }
