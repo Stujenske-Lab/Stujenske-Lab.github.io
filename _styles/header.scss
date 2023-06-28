@@ -10,6 +10,7 @@ $sticky: true;
 
 header {
   display: flex;
+  align-items: flex-start;
   gap: 0px;
   margin: 0px 0;
   flex-wrap: wrap;
@@ -36,7 +37,7 @@ header a {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 0px;
-  min-width: calc(40% - 30px - 1px);
+  min-width: min(400px, calc(40% - 30px - 1px));
   height: 100px;
 }
 
@@ -83,7 +84,7 @@ nav {
   flex-wrap: wrap;
   gap: 10px;
   font-family: var(--heading);
-  font-size: 1.5rem;
+  font-size: min( 1.5rem , 5vmin );
   font-weight: 500;
   text-transform: uppercase;
   min-width: calc(60% - 1px);
