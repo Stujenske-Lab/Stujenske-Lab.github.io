@@ -4,8 +4,8 @@ $logo-big: 80px;
 $logo: 40px;
 $big-padding: 10px;
 $collapse: 1260px;
-$limit-title: 200px;
-$fullcollapse: 920px;
+$limit-title: 634px;
+$fullcollapse: 0px;
 $sticky: true;
 
 header {
@@ -37,7 +37,7 @@ header a {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 0px;
-  min-width: min(400px, calc(40% - 30px - 1px));
+  width: 40%;
   height: 100px;
 }
 
@@ -132,37 +132,6 @@ nav > a:hover {
   content: "\f00d";
 }
 
-header {
-  @media (max-width: $collapse) {
-    justify-content: flex-start;
-    
-    .home {
-      min-width: calc(100% - 231px)
-    }
-    .nav-toggle {
-      display: flex;
-    }
-
-    .nav-toggle:not(:checked) + nav {
-      display: none;
-    }
-
-    nav {
-      align-items: flex-end;
-      flex-direction: column;
-      min-width: 200px;
-    }
-  }
-
-  @media (max-width: $fullcollapse) {
-    nav {
-      align-items: flex-end;
-      flex-direction: column;
-      min-width: 100%;
-    }
-  }
-}
-
 header[data-big] {
   flex-direction: row;
 
@@ -195,6 +164,37 @@ header[data-big] {
     font-size: min(4vmin,1.5rem);
   }
 
+}
+
+header {
+  @media (max-width: $collapse) {
+    justify-content: flex-start;
+    
+    .home {
+      min-width: calc(100% - 231px)
+    }
+    .nav-toggle {
+      display: flex;
+    }
+
+    .nav-toggle:not(:checked) + nav {
+      display: none;
+    }
+
+    nav {
+      align-items: flex-end;
+      flex-direction: column;
+      min-width: 200px;
+    }
+  }
+
+  @media (max-width: $fullcollapse) {
+    nav {
+      align-items: flex-end;
+      flex-direction: column;
+      min-width: 100%;
+    }
+  }
 }
 
 @media (max-width: $limit-title) {
