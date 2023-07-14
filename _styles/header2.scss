@@ -4,7 +4,7 @@ $logo-big: 80px;
 $logo: 40px;
 $big-padding: 10px;
 $collapse: 1260px;
-$limit-title: 200px;
+$limit-title: 634px;
 $sticky: true;
 $button_width: 450px;
 $fullcollapse: 0px;
@@ -38,7 +38,7 @@ header2 a {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 0px;
-  min-width: min(400px, calc(40% - 30px - 1px));
+  width: 40%;
   height: 100px;
 }
 
@@ -82,7 +82,7 @@ nav2 {
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 10px;
   font-family: var(--heading);
   font-size: min( 1.5rem , 5vmin );
@@ -142,7 +142,7 @@ maincontent {
   top: 300px;
   font-family:Cambria;
   font-weight:600;
-  max-width:min(100%,$button_width);
+  max-width: min(100%,$button_width);
   padding: 30px;
   text-align: left;
   justify-content: left;
