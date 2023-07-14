@@ -28,10 +28,18 @@ The Stujenske lab is relatively new, and current lab members may not yet be adde
 
 {%
   include button.html
-  type="text"
   text="Research Technician job posting"
   link="https://careers.upmc.com/job/18689776/research-associate-the-stujenske-lab-pittsburgh-pa/"
-  
+  icon="fa-solid fa-arrow-right"
+%}
+
+{%
+  include button.html
+  text="Lab Manager / Sr. Research Technician job posting"
+  link="https://careers.upmc.com/job/18735635/research-specialist-the-stujenske-lab-pittsburgh-pa/"
+  icon="fa-solid fa-arrow-right"
+%}
+
 {%
   include button.html
   type="email"
