@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["mark_shadow.scss"],"names":[],"mappings":"AAAA;EACI;EACA","sourcesContent":["mark_shadow {\n    text-shadow: 1px 1px 8px var(--background-alpha);\n    color: var(--heading-text);\n}"],"file":"mark_shadow.css"}

@@ -1,0 +1,25 @@
+.figure_noshadow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 40px 0;
+}
+
+.figure_noshadow-image {
+  display: contents;
+}
+
+.figure_noshadow-image img {
+  border-radius: var(--rounded);
+  overflow: hidden;
+  box-shadow: 0;
+}
+
+.figure_noshadow-caption {
+  font-style: normal;
+  text-align: left;
+}
+
+/*# sourceMappingURL=figure_noshadow.css.map */

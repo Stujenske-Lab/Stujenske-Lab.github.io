@@ -1,0 +1,6 @@
+mark_shadow {
+  text-shadow: 1px 1px 8px var(--background-alpha);
+  color: var(--heading-text);
+}
+
+/*# sourceMappingURL=mark_shadow.css.map */

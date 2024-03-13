@@ -1,0 +1,20 @@
+.background_gif {
+  position: relative;
+  background: var(--background);
+  color: var(--text);
+  z-index: 1;
+}
+
+.background_gif:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/images/background_vid2.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 25%;
+  opacity: 1;
+  z-index: -1;
+}
+
+/*# sourceMappingURL=background_gif.css.map */
