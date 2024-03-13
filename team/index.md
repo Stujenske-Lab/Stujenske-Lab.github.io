@@ -28,6 +28,13 @@ The Stujenske lab is relatively new, and current lab members may not yet be adde
 
 {%
   include button.html
+  text="Research Specialist job posting"
+  link="https://careers.upmc.com/job/20001800/research-specialist-the-stujenske-lab-pittsburgh-pa/"
+  icon="fa-solid fa-arrow-right"
+%}
+
+{%
+  include button.html
   type="email"
   text="I am interested in a position!"
   link="stujenske.lab@gmail.com"

@@ -1,7 +1,7 @@
 ---
 ---
 
-$wrap: 800px;
+$wrap: 500px;
 
 .feature {
   display: flex;
@@ -17,7 +17,6 @@ $wrap: 800px;
   aspect-ratio: 3 / 2;
   border-radius: var(--rounded);
   overflow: hidden;
-  box-shadow: var(--shadow);
 }
 
 .feature-image img {
@@ -48,6 +47,6 @@ $wrap: 800px;
 
   .feature-image {
     width: unset;
-    max-width: calc($wrap / 2);
+    width: calc($wrap / 2);
   }
 }

@@ -1,21 +1,24 @@
 ---
 ---
-$logo-big: 100px;
+$logo-big: 80px;
 $logo: 40px;
 $big-padding: 10px;
-$collapse: 1470px;
-$limit-title: 400px;
+$collapse: 1260px;
+$limit-title: 634px;
 $sticky: true;
+$button_width: 450px;
+$fullcollapse: 0px;
 
 header2 {
   display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
   gap: 0px;
   margin: 0px 0;
-  flex-wrap: wrap;
-  width: 100%;
+  flex-wrap: nowrap;
+  height: max(100vh,750px);
   padding: 20px;
   box-shadow: var(--shadow);
-  justify-content: space-between;
 
   @if $sticky {
     position: sticky !important;
@@ -27,7 +30,7 @@ header2 {
 header2 a {
   color: var(--heading-text);
   text-decoration: none;
-  background-color: var(--background-alpha);
+  text-shadow: 1px 1px 8px var(--background-alpha);
 }
 
 .home2 {
@@ -35,10 +38,8 @@ header2 a {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 0px;
-  flex-basis: 0;
-  flex-grow: 1;
-  min-width: calc(100% * 1/2 - 30px - 1px);
-  background-color: rgba(0,0,0,0);
+  width: 40%;
+  height: 100px;
 }
 
 .logo2 {
@@ -66,28 +67,28 @@ header2 a {
 // main title
 .title2 > *:first-child {
   font-size: var(--large);
-  font-weight: 500;
-  background-color: var(--background-alpha);
+  font-weight: 450;
+  text-shadow: 1px 1px 8px var(--background-alpha);
 }
 
 // subtitle
 .title2 > *:last-child {
   color: var(--gray);
   font-weight: var(--medium);
-  background-color: var(--background-alpha);
+  text-shadow: 1px 1px 8px var(--background-alpha);
 }
 
 nav2 {
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 20px;
+  flex-wrap: nowrap;
+  gap: 10px;
   font-family: var(--heading);
-  font-size: 24px;
+  font-size: min( 1.5rem , 5vmin );
   font-weight: 500;
   text-transform: uppercase;
-  min-width: calc(100% * 1/2 - 1px);
+  min-width: calc(60% - 1px);
 }
 
 nav2 > a {
@@ -121,10 +122,10 @@ nav2 > a:hover {
   left: calc(100% - 30px);
   top: 0px;
   color: var(--heading-text);
-  font-size: 15px;
+  font-size: 1rem;
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
-  transform: translate(-50%, -50%);
+  transform: translate(-10%, -50%);
   flex-direction: row;
 }
 
@@ -132,48 +133,35 @@ nav2 > a:hover {
   content: "\f00d";
 }
 
-nav2 {
+maincontent {
   display: flex;
-  justify-content: flex-end;
   align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 20px;
-  font-family: var(--heading);
-  font-size: 24px;
-  font-weight: 500;
-  text-transform: uppercase;
-  min-width: calc(100% * 1/2 - 1px);
+  flex-direction: column;
+  position: absolute;
+  left: 20px;
+  top: 300px;
+  font-family:Cambria;
+  font-weight:600;
+  max-width: min(100%,$button_width);
+  padding: 30px;
+  text-align: left;
+  justify-content: left;
+  line-height: calc(var(--spacing) - .4);
 }
 
-nav2 > a {
-  padding: 5px;
+.textbox {
+  font-size:min(8vmin,2.5rem);
+  padding: 0px 0px 50px 0px;
 }
 
-nav2 > a:hover {
-  color: var(--primary);
+.buttonbox {
+  font-size:min(5vmin,2rem);
+  max-width: $button_width;
 }
 
-header2 {
-  @media (max-width: $collapse) {
-    justify-content: flex-start;
-    
-    .home2 {
-      min-width: calc(75% - 31px)
-    }
-    .nav2-toggle {
-      display: flex;
-    }
-
-    .nav2-toggle:not(:checked) + nav2 {
-      display: none;
-    }
-
-    nav2 {
-      align-items: flex-end;
-      flex-direction: column;
-      min-width: 25%;
-    }
-  }
+.buttonbox2 {
+  font-size:min(5vmin,2rem);
+  max-width: $button_width;
 }
 
 header2[data-big] {
@@ -201,40 +189,46 @@ header2[data-big] {
   }
 
   .title2 > *:first-child {
-    font-size: 40px;
+    font-size: min(7vmin,2.5rem);
   }
 
   .title2 > *:last-child {
-    font-size: 24px;
+    font-size: min(4vmin,1.5rem);
   }
 
 }
 
-maincontent {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  font-family:Cambria;
-  font-weight:600;
-  width:50%;
-  padding: 30px;
-  text-align: left;
-  justify-content: left;
-  line-height: calc(var(--spacing) - .4);
-}
+header2 {
+  @media (max-width: $collapse) {
+    justify-content: flex-start;
+    
+    .home2 {
+      min-width: calc(100% - 231px)
+    }
 
-.textbox {
-  font-size:3em;
-  padding: 0px 0px 50px 0px;
-}
-.buttonbox {
-  font-size:2.5em;
-  width:70%;
-}
-.buttonbox2 {
-  font-size:2.5em;
-  width:70%;
-  height:700px;
+    .nav2-toggle {
+      display: flex;
+    }
+
+    .nav2-toggle:not(:checked) + nav2 {
+      display: none;
+    }
+
+    nav2 {
+      align-items: flex-end;
+      flex-direction: column;
+      min-width: 200px;
+    }
+    
+  }
+
+  @media (max-width: $fullcollapse) {
+    nav2 {
+      align-items: flex-end;
+      flex-direction: column;
+      min-width: 100%;
+    }
+  }
 }
 
 @media (max-width: $limit-title) {
