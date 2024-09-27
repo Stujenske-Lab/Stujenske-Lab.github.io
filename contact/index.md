@@ -7,13 +7,13 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Our lab is in the [Department of Psychiatry](https://www.psychiatry.pitt.edu/){:target="_blank"}{:rel="noopener noreferrer"} at the [University of Pittsburgh](https://www.medschool.pitt.edu/){:target="_blank"}{:rel="noopener noreferrer"}. We are located in the Bridgeside II building in South Oakland. We are best reached by [email](stujenske.lab@gmail.com).
+Our lab is in the [Department of Psychiatry](https://www.psychiatry.pitt.edu/){:target="_blank"}{:rel="noopener noreferrer"} at the [University of Pittsburgh](https://www.medschool.pitt.edu/){:target="_blank"}{:rel="noopener noreferrer"}. We are located in the Bridgeside II building in South Oakland. We are best reached by [email](stujenskejm@upmc.edu).
 
 {%
   include button.html
   type="email"
   text="Lab email"
-  link="stujenske.lab@gmail.com"
+  link="stujenskejm@upmc.edu"
 %}
 {% comment %}
 {%
