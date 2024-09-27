@@ -1,11 +1,12 @@
 ---
-name: Haleigh Paolucci
+name: Nicholas McDonald
+image: images/Nick_s.jpg
 role: research-scientist
 aliases:
-  - Haleigh Paolucci
-  - H Paolucci
+  - Nick McDonald
+  - N McDonald
 links:
-  email: paoluccihe@upmc.edu
+  email: mcdonaldnj@upmc.edu
 ---
 
-Haleigh Paolucci, B.S. in Biology, graduated from Westminster College in 2023. Her undergraduate research focused on both the structural and molecular mechanisms involved in Axolotl limb regeneration. She currently works in the Stujenske laboratory at the University of Pittsburgh. In the future she plans to continue to contribute to the scientific community in a research or clinical setting.
+Nick McDonald, B.S. Bioengineering, University of Pittsburgh
