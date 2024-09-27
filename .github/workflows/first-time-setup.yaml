@@ -94,7 +94,7 @@ jobs:
               .replace(/(^title: ).*$/m, "$1${{ env.USER }}")
               .replace(/(^subtitle: ).*$/m, "$1")
               .replace(/(^description: ).*$/m, "$1${{ env.DESCRIPTION }}")
-              .replace(/(^  email: ).*$/m, "$1contact@${{ env.USER }}.com")
+              .replace(/(^  email: ).*$/m, "stujenskejm@upmc.edu")
               .replace(/(^  github: ).*$/m, "$1${{ env.USER }}")
               .replace(/(^  twitter: ).*$/m, "$1${{ env.USER }}")
               .replace(/(^  youtube: ).*$/m, "$1${{ env.USER }}");

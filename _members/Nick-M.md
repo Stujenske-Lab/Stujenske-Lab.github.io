@@ -1,7 +1,6 @@
 ---
 name: Haleigh Paolucci
-image: images/Haleigh_s.jpg
-role: alumni
+role: research-scientist
 aliases:
   - Haleigh Paolucci
   - H Paolucci
