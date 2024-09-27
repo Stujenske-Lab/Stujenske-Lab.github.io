@@ -13,11 +13,7 @@ The Stujenske lab is relatively new, and current lab members may not yet be adde
 
 {% include list.html data="members" component="portrait" filters="role: pi" %}
 
-{% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
-
-# {% include icon.html icon="fa-solid fa-users" %}Alumni
-
-{% include list.html data="members" component="portrait" filters="role: alumni" %}
+{% include list.html data="members" component="portrait" filters="role: ^(?!pi$|alumni$)" %}
 
 {% include section.html background="images/background.jpg" dark=true opacityval=".5" %}
 
@@ -43,6 +39,10 @@ The Stujenske lab is relatively new, and current lab members may not yet be adde
   text="I am interested in a position!"
   link="stujenskejm@upmc.edu"
 %}
+
+# {% include icon.html icon="fa-solid fa-users" %}Alumni
+
+{% include list.html data="members" component="portrait" filters="role: alumni" %}
 
 {% include section.html %}
 
