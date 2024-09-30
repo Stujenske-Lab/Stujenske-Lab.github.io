@@ -1,5 +1,6 @@
 ---
 name: Kelsey Shimoda
+image: images/Kelsey_s.jpg
 role: research-rotation
 aliases:
   - K Shimoda
