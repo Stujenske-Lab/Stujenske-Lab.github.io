@@ -22,6 +22,10 @@ research-scientist:
   icon: fa-solid fa-flask
   description: Research Specialist
 
+research-rotation:
+  icon: fa-solid fa-flask
+  description: Rotating Student
+
 programmer:
   icon: fa-solid fa-code
   description: Programmer
