@@ -15,6 +15,10 @@ The Stujenske lab is relatively new, and current lab members may not yet be adde
 
 {% include list.html data="members" component="portrait" filters="role: ^(?!pi$|alumni$)" %}
 
+# <span style="color:white">Alumni</span>
+
+{% include list.html data="members" component="portrait" filters="role: alumni" %}
+
 {% include section.html background="images/background.jpg" dark=true opacityval=".5" %}
 
 # <span style="color:white">We are hiring!</span>
@@ -28,21 +32,10 @@ The Stujenske lab is relatively new, and current lab members may not yet be adde
 
 {%
   include button.html
-  text="Research Specialist job posting"
-  link="https://careers.upmc.com/job/20001800/research-specialist-the-stujenske-lab-pittsburgh-pa/"
-  icon="fa-solid fa-arrow-right"
-%}
-
-{%
-  include button.html
   type="email"
   text="I am interested in a position!"
   link="stujenskejm@upmc.edu"
 %}
-
-# {% include icon.html icon="fa-solid fa-users" %}Alumni
-
-{% include list.html data="members" component="portrait" filters="role: alumni" %}
 
 {% include section.html %}
 
