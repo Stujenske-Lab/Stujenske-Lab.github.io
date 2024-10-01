@@ -9,4 +9,4 @@ links:
   email: mcdonaldnj@upmc.edu
 ---
 
-Nick McDonald, B.S. Bioengineering, University of Pittsburgh
+Nicholas McDonald, B.S Bioengineering, is a Research Specialist for the Stujenske Laboratory at the University of Pittsburgh. As an undergraduate at the University of Pittsburgh, Nick worked in labs investigating LFPs within the Superior Colliculus. He hopes to explore neuronal ensemble dynamics and visual neuronal architecture in the future.
