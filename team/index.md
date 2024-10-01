@@ -15,7 +15,7 @@ The Stujenske lab is relatively new, and current lab members may not yet be adde
 
 {% include list.html data="members" component="portrait" filters="role: ^(?!pi$|alumni$)" %}
 
-# <span style="color:white">Alumni</span>
+# Alumni
 
 {% include list.html data="members" component="portrait" filters="role: alumni" %}
 
