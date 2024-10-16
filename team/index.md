@@ -15,7 +15,9 @@ The Stujenske lab is relatively new, and current lab members may not yet be adde
 
 {% include list.html data="members" component="portrait" filters="role: ^(?!pi$|alumni$)" %}
 
-# Alumni
+{% include section.html %}
+
+## Alumni
 
 {% include list.html data="members" component="portrait" filters="role: alumni" %}
 
