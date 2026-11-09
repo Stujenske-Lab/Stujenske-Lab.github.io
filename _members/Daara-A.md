@@ -1,7 +1,7 @@
 ---
 name: Daara Akinpelu
 image: images/Daara_s.jpg
-role: undergrad
+role: alumni
 aliases:
   - D Akinpelu
 links:

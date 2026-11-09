@@ -1,7 +1,7 @@
 ---
 name: Erastus Allen
 image: images/Erastus_s.jpg
-role: programmer
+role: alumni
 aliases:
   - Erastus Allen
   - E Allen

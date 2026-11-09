@@ -1,7 +1,7 @@
 ---
 name: Nora Miller
 image: images/Nora_s.jpg
-role: research-rotation
+role: phd
 aliases:
   - N Miller
 links:

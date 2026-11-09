@@ -1,7 +1,7 @@
 ---
 name: Mariah Berchulski
 image: images/Mariah_s.jpg
-role: research-rotation
+role: phd
 aliases:
   - M Berchulski
 links:
