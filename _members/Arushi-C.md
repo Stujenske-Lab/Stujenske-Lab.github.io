@@ -1,7 +1,7 @@
 ---
 name: Arushi Chamaria
 image: images/Arushi_s.jpg
-role: undergrad
+role: alumni
 aliases:
   - A Chamaria
 links:

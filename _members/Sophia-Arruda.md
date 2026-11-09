@@ -1,7 +1,7 @@
 ---
 name: Sophia Arruda da Costa E Silva
 image: images/SADCS.jpg
-role: research-scientist
+role: alumni
 aliases:
   - Sophia Arruda
   - Sophia Arruda Da Costa E Silva
