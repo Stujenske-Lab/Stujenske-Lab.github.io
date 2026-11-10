@@ -22,7 +22,6 @@
   plugin: pubmed.py
   file: pubmed.yaml
   image: images/chalencon_biorxiv_2026.png
-
 - id: pubmed:42030928
   title: Mechanism-guided identification of antidepressant G protein-coupled receptor
     drug targets.
@@ -54,7 +53,6 @@
   plugin: pubmed.py
   file: pubmed.yaml
   image: images/munguba_cell_2026.png
-
 - id: pubmed:39879977
   title: Projection-targeted photopharmacology reveals distinct anxiolytic roles for
     presynaptic mGluR2 in prefrontal- and insula-amygdala synapses.
@@ -78,7 +76,6 @@
   plugin: pubmed.py
   file: pubmed.yaml
   image: images/munguba_neuron.png
-
 - id: pubmed:39872404
   title: 'Population imaging of internal state circuits relevant to psychiatric disease:
     a review.'
@@ -94,7 +91,6 @@
   plugin: pubmed.py
   file: pubmed.yaml
   image: images/logo-nph.png
-- 
 - id: pubmed:35397211
   title: Prelimbic cortex drives discrimination of non-aversion via amygdala somatostatin
     interneurons.
@@ -125,7 +121,6 @@
   buttons:
   - type: github
     link: https://github.com/jmstujenske/PL_drives_nonaversion_via_SOM_IN
-
 - id: pubmed:28761080
   title: Serotonin inputs to the dorsal BNST modulate anxiety in a 5-HT
   authors:
@@ -143,7 +138,6 @@
   plugin: sources.py
   file: sources.yaml
   image: images/Garcia2017.png
-
 - id: pubmed:28542155
   title: Fear from the bottom up.
   authors:
@@ -156,7 +150,6 @@
   plugin: sources.py
   file: sources.yaml
   image: images/FearBottom.png
-
 - id: pubmed:28481349
   title: Thalamic projections sustain prefrontal activity during working memory maintenance.
   authors:
@@ -176,7 +169,6 @@
   plugin: sources.py
   file: sources.yaml
   image: images/Bolkan.png
-
 - id: pubmed:26166563
   title: Modeling the Spatiotemporal Dynamics of Light and Heat Propagation for In
     Vivo Optogenetics.
@@ -194,7 +186,6 @@
   buttons:
   - type: github
     link: https://github.com/jmstujenske/Spatiotemporal-Dynamics-Fiber-Optic
-
 - id: pubmed:26140594
   title: Neural Representations of Unconditioned Stimuli in Basolateral Amygdala Mediate
     Innate and Learned Responses.
@@ -216,7 +207,6 @@
   plugin: sources.py
   file: sources.yaml
   image: images/Gore.png
-
 - id: pubmed:25144877
   title: Fear and safety engage competing patterns of theta-gamma coupling in the
     basolateral amygdala.
@@ -232,7 +222,6 @@
   plugin: sources.py
   file: sources.yaml
   image: images/ThetaGamma.png
-
 - id: pubmed:24241397
   title: Prefrontal entrainment of amygdala activity signals safety in learned fear
     and innate anxiety.
@@ -249,7 +238,6 @@
   plugin: sources.py
   file: sources.yaml
   image: images/Likhtik.png
-
 - id: pubmed:21460263
   title: The bugeye mutant zebrafish exhibits visual deficits that arise with the
     onset of an enlarged eye phenotype.
