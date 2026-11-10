@@ -22,7 +22,6 @@
   term: Stujenske, J[Author] NOT Correction[Title]
   plugin: pubmed.py
   file: pubmed.yaml
-  images: images/chalencon_biorxiv_2026.png
 - id: pubmed:42030928
   title: Mechanism-guided identification of antidepressant G protein-coupled receptor
     drug targets.
@@ -53,7 +52,6 @@
   term: Stujenske, J[Author] NOT Correction[Title]
   plugin: pubmed.py
   file: pubmed.yaml
-  image: images/munguba_cell_2026.jpg
 - id: pubmed:39879977
   title: Projection-targeted photopharmacology reveals distinct anxiolytic roles for
     presynaptic mGluR2 in prefrontal- and insula-amygdala synapses.
@@ -76,7 +74,6 @@
   term: Stujenske, J[Author] NOT Correction[Title]
   plugin: pubmed.py
   file: pubmed.yaml
-  image: images/munguba_neuron.jpg
 - id: pubmed:39872404
   title: 'Population imaging of internal state circuits relevant to psychiatric disease:
     a review.'
@@ -91,7 +88,6 @@
   term: Stujenske, J[Author] NOT Correction[Title]
   plugin: pubmed.py
   file: pubmed.yaml
-  image: images/logo-nph.png
 - id: pubmed:38293136
   title: Projection-Targeted Photopharmacology Reveals Distinct Anxiolytic Roles for
     Presynaptic mGluR2 in Prefrontal- and Insula-Amygdala Synapses.
